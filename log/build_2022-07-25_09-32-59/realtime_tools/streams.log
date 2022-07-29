@@ -1,0 +1,40 @@
+[0.093s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools -- -j2 -l2
+[0.431s] [ 11%] Built target realtime_tools
+[0.570s] [ 29%] Built target gmock
+[0.713s] [ 41%] Built target gmock_main
+[0.927s] [ 52%] Built target realtime_buffer_tests
+[1.189s] [ 64%] Built target realtime_publisher_tests
+[1.398s] [ 76%] Built target realtime_server_goal_handle_tests
+[1.686s] [ 88%] Built target realtime_box_tests
+[1.856s] [100%] Built target realtime_clock_tests
+[1.934s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools -- -j2 -l2
+[2.171s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools
+[2.212s] -- Install configuration: ""
+[2.220s] -- Execute custom install script
+[2.230s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/include/realtime_tools/realtime_box.h
+[2.234s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/include/realtime_tools/realtime_buffer.h
+[2.244s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/include/realtime_tools/realtime_clock.h
+[2.246s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/include/realtime_tools/realtime_publisher.h
+[2.254s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/include/realtime_tools/realtime_server_goal_handle.h
+[2.263s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/lib/librealtime_tools.a
+[2.269s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[2.271s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[2.284s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[2.285s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[2.287s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[2.289s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[2.295s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+[2.298s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[2.299s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+[2.302s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+[2.306s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[2.321s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[2.321s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/package.dsv
+[2.355s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[2.358s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.367s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[2.367s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.369s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[2.376s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[2.379s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools/share/realtime_tools/package.xml
+[2.405s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/realtime_tools

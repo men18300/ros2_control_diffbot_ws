@@ -1,0 +1,306 @@
+[0.094s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs -- -j2 -l2
+[0.317s] [  0%] Built target control_msgs__cpp
+[0.413s] [ 12%] Built target control_msgs__rosidl_generator_c
+[0.505s] [ 24%] Built target control_msgs__rosidl_typesupport_cpp
+[0.644s] [ 36%] Built target control_msgs__rosidl_typesupport_fastrtps_cpp
+[0.781s] [ 48%] Built target control_msgs__rosidl_typesupport_introspection_c
+[0.842s] [ 60%] Built target control_msgs__rosidl_typesupport_c
+[0.908s] [ 72%] Built target control_msgs__rosidl_typesupport_introspection_cpp
+[1.019s] [ 84%] Built target control_msgs__rosidl_typesupport_fastrtps_c
+[1.086s] [ 84%] Built target control_msgs
+[1.138s] [ 85%] Built target control_msgs__py
+[1.228s] [ 96%] Built target control_msgs__python
+[1.301s] [ 97%] Built target control_msgs__rosidl_typesupport_c__pyext
+[1.374s] [ 99%] Built target control_msgs__rosidl_typesupport_introspection_c__pyext
+[1.436s] [100%] Built target control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.477s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs -- -j2 -l2
+[2.516s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs
+[2.550s] -- Install configuration: ""
+[2.554s] -- Execute custom install script
+[2.556s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/ament_index/resource_index/rosidl_interfaces/control_msgs
+[2.562s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__functions.h
+[2.563s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__struct.h
+[2.571s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__type_support.h
+[2.573s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__functions.h
+[2.574s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__struct.h
+[2.576s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__type_support.h
+[2.576s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__functions.h
+[2.577s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__struct.h
+[2.577s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__type_support.h
+[2.578s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__functions.h
+[2.578s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__struct.h
+[2.580s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__type_support.h
+[2.581s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__functions.h
+[2.582s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__struct.h
+[2.584s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__type_support.h
+[2.584s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/follow_joint_trajectory.h
+[2.585s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/gripper_command.h
+[2.587s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/joint_trajectory.h
+[2.588s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/point_head.h
+[2.588s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/single_joint_position.h
+[2.590s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__functions.h
+[2.591s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__struct.h
+[2.591s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__type_support.h
+[2.592s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__functions.h
+[2.593s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__struct.h
+[2.594s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__type_support.h
+[2.594s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__functions.h
+[2.596s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__struct.h
+[2.597s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__type_support.h
+[2.600s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__functions.h
+[2.607s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__struct.h
+[2.608s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__type_support.h
+[2.611s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__functions.h
+[2.612s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__struct.h
+[2.616s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__type_support.h
+[2.617s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__functions.h
+[2.617s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__struct.h
+[2.618s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__type_support.h
+[2.620s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__functions.h
+[2.621s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__struct.h
+[2.622s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.h
+[2.623s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__functions.h
+[2.625s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__struct.h
+[2.626s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__type_support.h
+[2.627s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/dynamic_joint_state.h
+[2.628s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/gripper_command.h
+[2.628s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/interface_value.h
+[2.630s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_controller_state.h
+[2.631s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_jog.h
+[2.632s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_tolerance.h
+[2.632s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_trajectory_controller_state.h
+[2.633s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/pid_state.h
+[2.633s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.634s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__functions.h
+[2.637s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__struct.h
+[2.637s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__type_support.h
+[2.639s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__functions.h
+[2.641s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__struct.h
+[2.641s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__type_support.h
+[2.642s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/query_calibration_state.h
+[2.642s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/query_trajectory_state.h
+[2.643s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/library_path.sh
+[2.643s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/library_path.dsv
+[2.646s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[2.647s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[2.647s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[2.648s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_c.h
+[2.650s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_c.h
+[2.657s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_c.h
+[2.658s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[2.660s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_c.h
+[2.661s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_c.h
+[2.662s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_c.h
+[2.662s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_c.h
+[2.663s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_c.h
+[2.663s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_c.h
+[2.664s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.664s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_c.h
+[2.664s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_c.h
+[2.665s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
+[2.666s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[2.667s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.667s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[2.668s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_cpp.hpp
+[2.668s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.670s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.670s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.670s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_cpp.hpp
+[2.671s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.671s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.673s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.674s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.677s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_c.h
+[2.678s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[2.680s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[2.690s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_c.h
+[2.691s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_c.h
+[2.692s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_c.h
+[2.692s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[2.693s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_c.h
+[2.695s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_c.h
+[2.696s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_c.h
+[2.698s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_c.h
+[2.701s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_c.h
+[2.701s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_c.h
+[2.702s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.704s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_c.h
+[2.706s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_c.h
+[2.711s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__builder.hpp
+[2.712s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__struct.hpp
+[2.713s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__traits.hpp
+[2.714s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__builder.hpp
+[2.715s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__struct.hpp
+[2.717s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__traits.hpp
+[2.718s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__builder.hpp
+[2.720s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__struct.hpp
+[2.721s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__traits.hpp
+[2.722s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__builder.hpp
+[2.723s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__struct.hpp
+[2.725s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__traits.hpp
+[2.725s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__builder.hpp
+[2.727s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__struct.hpp
+[2.729s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__traits.hpp
+[2.730s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/follow_joint_trajectory.hpp
+[2.732s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/gripper_command.hpp
+[2.734s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/joint_trajectory.hpp
+[2.736s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/point_head.hpp
+[2.736s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/single_joint_position.hpp
+[2.737s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__builder.hpp
+[2.738s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__struct.hpp
+[2.740s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__traits.hpp
+[2.741s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__builder.hpp
+[2.743s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__struct.hpp
+[2.744s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__traits.hpp
+[2.746s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__builder.hpp
+[2.748s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__struct.hpp
+[2.750s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__traits.hpp
+[2.757s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__builder.hpp
+[2.757s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__struct.hpp
+[2.757s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__traits.hpp
+[2.757s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__builder.hpp
+[2.757s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__struct.hpp
+[2.758s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__traits.hpp
+[2.758s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__builder.hpp
+[2.760s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__struct.hpp
+[2.760s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__traits.hpp
+[2.761s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__builder.hpp
+[2.761s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp
+[2.762s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__traits.hpp
+[2.762s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__builder.hpp
+[2.763s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__struct.hpp
+[2.763s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__traits.hpp
+[2.764s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/dynamic_joint_state.hpp
+[2.764s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/gripper_command.hpp
+[2.766s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/interface_value.hpp
+[2.767s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_controller_state.hpp
+[2.770s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_jog.hpp
+[2.772s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_tolerance.hpp
+[2.774s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/joint_trajectory_controller_state.hpp
+[2.776s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/pid_state.hpp
+[2.778s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__builder.hpp
+[2.780s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__struct.hpp
+[2.782s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__traits.hpp
+[2.784s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__builder.hpp
+[2.785s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__struct.hpp
+[2.787s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__traits.hpp
+[2.789s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/query_calibration_state.hpp
+[2.790s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/query_trajectory_state.hpp
+[2.795s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[2.797s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[2.798s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[2.801s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_cpp.hpp
+[2.803s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[2.805s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[2.808s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[2.810s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_cpp.hpp
+[2.812s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.813s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_cpp.hpp
+[2.815s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[2.817s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.820s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_cpp.hpp
+[2.822s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_cpp.hpp
+[2.826s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/include/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_cpp.hpp
+[2.828s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/pythonpath.sh
+[2.831s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/pythonpath.dsv
+[2.833s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/__init__.py
+[2.836s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/__init__.py
+[2.838s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_dynamic_joint_state.py
+[2.841s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_gripper_command.py
+[2.843s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_interface_value.py
+[2.846s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_controller_state.py
+[2.848s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_jog.py
+[2.851s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_tolerance.py
+[2.853s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_trajectory_controller_state.py
+[2.855s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_pid_state.py
+[2.858s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/srv/__init__.py
+[2.860s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/srv/_query_calibration_state.py
+[2.861s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/srv/_query_trajectory_state.py
+[2.864s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/action/__init__.py
+[2.866s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/action/_follow_joint_trajectory.py
+[2.868s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/action/_gripper_command.py
+[2.870s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/action/_joint_trajectory.py
+[2.871s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/action/_point_head.py
+[2.873s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/action/_single_joint_position.py
+[2.875s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.877s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.880s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.882s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__python.so
+[2.884s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.idl
+[2.885s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.idl
+[2.886s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.idl
+[2.887s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.idl
+[2.890s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointJog.idl
+[2.891s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.idl
+[2.892s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.idl
+[2.894s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/PidState.idl
+[2.896s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.idl
+[2.897s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.idl
+[2.900s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.idl
+[2.901s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/GripperCommand.idl
+[2.902s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.idl
+[2.904s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/PointHead.idl
+[2.905s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.idl
+[2.906s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.msg
+[2.908s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.msg
+[2.910s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.msg
+[2.911s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.msg
+[2.913s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointJog.msg
+[2.914s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.msg
+[2.915s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.msg
+[2.917s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/msg/PidState.msg
+[2.918s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.srv
+[2.920s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Request.msg
+[2.921s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Response.msg
+[2.922s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.srv
+[2.923s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Request.msg
+[2.938s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Response.msg
+[2.938s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.action
+[2.939s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/GripperCommand.action
+[2.940s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.action
+[2.941s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/PointHead.action
+[2.941s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.action
+[2.941s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/ament_index/resource_index/package_run_dependencies/control_msgs
+[2.942s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/ament_index/resource_index/parent_prefix_path/control_msgs
+[2.942s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.sh
+[2.942s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.dsv
+[2.943s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/path.sh
+[2.943s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/environment/path.dsv
+[2.948s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/local_setup.bash
+[2.949s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/local_setup.sh
+[2.949s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/local_setup.zsh
+[2.949s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/local_setup.dsv
+[2.949s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/package.dsv
+[3.022s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/ament_index/resource_index/packages/control_msgs
+[3.022s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake-extras.cmake
+[3.024s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.026s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.026s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.027s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.029s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.031s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.036s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig.cmake
+[3.038s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig-version.cmake
+[3.042s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/package.xml
+[3.045s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so
+[3.045s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so
+[3.048s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so
+[3.052s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so
+[3.058s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so
+[3.222s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_generator_cExport.cmake
+[3.223s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.223s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.224s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.225s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport.cmake
+[3.225s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.225s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_generator_cppExport.cmake
+[3.226s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.226s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.227s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport.cmake
+[3.227s] -- Up-to-date: /home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.239s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs

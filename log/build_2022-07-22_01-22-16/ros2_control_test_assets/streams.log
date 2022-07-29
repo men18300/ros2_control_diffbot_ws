@@ -1,0 +1,33 @@
+[0.081s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets
+[0.137s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.209s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.705s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.739s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.928s] -- Configuring done
+[0.936s] -- Generating done
+[0.938s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets
+[0.951s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets
+[0.954s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets -- -j2 -l2
+[1.065s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets -- -j2 -l2
+[1.161s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets
+[1.224s] -- Install configuration: ""
+[1.227s] -- Execute custom install script
+[1.231s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[1.278s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[1.303s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.341s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.374s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.401s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.439s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.463s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.489s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.521s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.545s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.569s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.595s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.622s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.645s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.672s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.700s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.726s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.759s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets

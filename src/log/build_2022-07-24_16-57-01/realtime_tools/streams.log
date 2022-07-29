@@ -1,0 +1,60 @@
+[0.065s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/realtime_tools
+[0.259s] -- The C compiler identification is GNU 9.4.0
+[0.526s] -- The CXX compiler identification is GNU 9.4.0
+[0.546s] -- Check for working C compiler: /usr/bin/cc
+[0.840s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.844s] -- Detecting C compiler ABI info
+[1.117s] -- Detecting C compiler ABI info - done
+[1.169s] -- Detecting C compile features
+[1.171s] -- Detecting C compile features - done
+[1.182s] -- Check for working CXX compiler: /usr/bin/c++
+[1.721s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.726s] -- Detecting CXX compiler ABI info
+[1.959s] -- Detecting CXX compiler ABI info - done
+[1.994s] -- Detecting CXX compile features
+[1.996s] -- Detecting CXX compile features - done
+[2.003s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.078s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.697s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.838s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.142s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.558s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.565s] -- Looking for pthread.h
+[3.792s] -- Looking for pthread.h - found
+[3.794s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.007s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.009s] -- Looking for pthread_create in pthreads
+[4.176s] -- Looking for pthread_create in pthreads - not found
+[4.177s] -- Looking for pthread_create in pthread
+[4.382s] -- Looking for pthread_create in pthread - found
+[4.386s] -- Found Threads: TRUE  
+[4.873s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[5.112s] -- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[5.115s] -- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[5.119s] -- Found ament_cmake_lint_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[5.122s] -- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[5.129s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[5.132s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[5.323s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.334s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.336s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.545s] -- Configuring done
+[5.847s] -- Generating done
+[5.855s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools
+[5.898s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/realtime_tools
+[5.901s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools -- -j2 -l2
+[6.016s] [35m[1mScanning dependencies of target realtime_tools[0m
+[6.065s] [  5%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[8.821s] [ 11%] [32m[1mLinking CXX static library librealtime_tools.a[0m
+[8.989s] [ 11%] Built target realtime_tools
+[9.025s] [35m[1mScanning dependencies of target gmock[0m
+[9.288s] [ 17%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[13.835s] make[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:63: gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o] Interrupt
+[13.840s] make[1]: *** [CMakeFiles/Makefile2:384: gmock/CMakeFiles/gmock.dir/all] Interrupt
+[13.840s] make: *** [Makefile:141: all] Interrupt
+[13.878s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools -- -j2 -l2

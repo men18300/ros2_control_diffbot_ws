@@ -1,0 +1,1 @@
+/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

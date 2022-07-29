@@ -1,0 +1,1 @@
+/home/diego/Workspaces/ros2_control_diffbot_ws/build/joint_trajectory_controller/ament_cmake_core/joint_trajectory_controllerConfig-version.cmake

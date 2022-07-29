@@ -1,0 +1,4 @@
+Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description -- -j2 -l2
+Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description -- -j2 -l2
+Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description
+Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description

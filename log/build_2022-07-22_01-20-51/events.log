@@ -1,0 +1,1030 @@
+[0.000000] (-) TimerEvent: {}
+[0.000563] (control_msgs) JobQueued: {'identifier': 'control_msgs', 'dependencies': OrderedDict()}
+[0.000731] (controller_manager_msgs) JobQueued: {'identifier': 'controller_manager_msgs', 'dependencies': OrderedDict()}
+[0.001490] (diffbot_description) JobQueued: {'identifier': 'diffbot_description', 'dependencies': OrderedDict()}
+[0.001746] (realtime_tools) JobQueued: {'identifier': 'realtime_tools', 'dependencies': OrderedDict()}
+[0.001813] (ros2_control_test_assets) JobQueued: {'identifier': 'ros2_control_test_assets', 'dependencies': OrderedDict()}
+[0.001893] (ros2_control_test_nodes) JobQueued: {'identifier': 'ros2_control_test_nodes', 'dependencies': OrderedDict()}
+[0.002078] (rrbot_description) JobQueued: {'identifier': 'rrbot_description', 'dependencies': OrderedDict()}
+[0.002168] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets')])}
+[0.002279] (controller_interface) JobQueued: {'identifier': 'controller_interface', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface')])}
+[0.002349] (ros2_control_demo_hardware) JobQueued: {'identifier': 'ros2_control_demo_hardware', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface')])}
+[0.002416] (transmission_interface) JobQueued: {'identifier': 'transmission_interface', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface')])}
+[0.002482] (controller_manager) JobQueued: {'identifier': 'controller_manager', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface')])}
+[0.002562] (diff_drive_controller) JobQueued: {'identifier': 'diff_drive_controller', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.002663] (force_torque_sensor_broadcaster) JobQueued: {'identifier': 'force_torque_sensor_broadcaster', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.002771] (forward_command_controller) JobQueued: {'identifier': 'forward_command_controller', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.002853] (gripper_controllers) JobQueued: {'identifier': 'gripper_controllers', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.002927] (imu_sensor_broadcaster) JobQueued: {'identifier': 'imu_sensor_broadcaster', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.003007] (joint_state_broadcaster) JobQueued: {'identifier': 'joint_state_broadcaster', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.003089] (joint_trajectory_controller) JobQueued: {'identifier': 'joint_trajectory_controller', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.003250] (ros2controlcli) JobQueued: {'identifier': 'ros2controlcli', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager')])}
+[0.003335] (effort_controllers) JobQueued: {'identifier': 'effort_controllers', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager'), ('forward_command_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/forward_command_controller')])}
+[0.003413] (joint_state_controller) JobQueued: {'identifier': 'joint_state_controller', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager'), ('joint_state_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_state_broadcaster')])}
+[0.003492] (position_controllers) JobQueued: {'identifier': 'position_controllers', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager'), ('forward_command_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/forward_command_controller')])}
+[0.003572] (ros2_control) JobQueued: {'identifier': 'ros2_control', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager'), ('ros2controlcli', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli')])}
+[0.003658] (ros2_control_demo_bringup) JobQueued: {'identifier': 'ros2_control_demo_bringup', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('diffbot_description', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_nodes', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes'), ('rrbot_description', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('ros2_control_demo_hardware', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_hardware'), ('force_torque_sensor_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/forward_command_controller'), ('joint_state_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_trajectory_controller')])}
+[0.003758] (velocity_controllers) JobQueued: {'identifier': 'velocity_controllers', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('controller_manager_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('controller_manager', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager'), ('forward_command_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/forward_command_controller')])}
+[0.003832] (ros2_control_demos) JobQueued: {'identifier': 'ros2_control_demos', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('diffbot_description', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('ros2_control_test_nodes', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes'), ('rrbot_description', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('ros2_control_demo_hardware', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_hardware'), ('force_torque_sensor_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/forward_command_controller'), ('joint_state_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_trajectory_controller'), ('ros2_control_demo_bringup', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup')])}
+[0.003932] (ros2_controllers) JobQueued: {'identifier': 'ros2_controllers', 'dependencies': OrderedDict([('control_msgs', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'), ('realtime_tools', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/realtime_tools'), ('hardware_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface'), ('controller_interface', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_interface'), ('diff_drive_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/diff_drive_controller'), ('force_torque_sensor_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/forward_command_controller'), ('imu_sensor_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/imu_sensor_broadcaster'), ('joint_state_broadcaster', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_trajectory_controller'), ('effort_controllers', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/effort_controllers'), ('joint_state_controller', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/joint_state_controller'), ('position_controllers', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/position_controllers'), ('velocity_controllers', '/home/diego/Workspaces/ros2_control_diffbot_ws/install/velocity_controllers')])}
+[0.007870] (control_msgs) JobStarted: {'identifier': 'control_msgs'}
+[0.095937] (ros2_control_test_assets) JobStarted: {'identifier': 'ros2_control_test_assets'}
+[0.098151] (-) TimerEvent: {}
+[0.120085] (control_msgs) JobProgress: {'identifier': 'control_msgs', 'progress': 'cmake'}
+[0.120351] (control_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/diego/Workspaces/ros2_control_diffbot_ws/src/control_msgs/control_msgs', '-DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs'], 'cwd': '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diego'), ('OLDPWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1321'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/diego/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:34949'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diego-VirtualBox:@/tmp/.ICE-unix/1538,unix/diego-VirtualBox:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', '14cb6d99c25e4648ade0014d7d95e869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d1261bb_cced_4368_b95f_13f3fc9cedd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.165783] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'cmake'}
+[0.166594] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/ros2_control_test_assets', '-DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets'], 'cwd': '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diego'), ('OLDPWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1321'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/diego/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:34949'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diego-VirtualBox:@/tmp/.ICE-unix/1538,unix/diego-VirtualBox:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', '14cb6d99c25e4648ade0014d7d95e869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d1261bb_cced_4368_b95f_13f3fc9cedd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.198579] (-) TimerEvent: {}
+[0.299716] (-) TimerEvent: {}
+[0.400237] (-) TimerEvent: {}
+[0.501087] (-) TimerEvent: {}
+[0.602648] (-) TimerEvent: {}
+[0.704143] (-) TimerEvent: {}
+[0.804014] (control_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.804493] (-) TimerEvent: {}
+[0.808373] (ros2_control_test_assets) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.904635] (-) TimerEvent: {}
+[1.006042] (-) TimerEvent: {}
+[1.107033] (-) TimerEvent: {}
+[1.207823] (-) TimerEvent: {}
+[1.235785] (ros2_control_test_assets) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.240605] (control_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.268882] (control_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.269385] (ros2_control_test_assets) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.309408] (-) TimerEvent: {}
+[1.410228] (-) TimerEvent: {}
+[1.468307] (ros2_control_test_assets) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.475332] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.475792] (control_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.479012] (control_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.511291] (-) TimerEvent: {}
+[1.612973] (-) TimerEvent: {}
+[1.669154] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.681259] (control_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.704351] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.706115] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.713494] (-) TimerEvent: {}
+[1.716467] (control_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.717480] (control_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.720138] (ros2_control_test_assets) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.726497] (control_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.816040] (-) TimerEvent: {}
+[1.924127] (-) TimerEvent: {}
+[1.973786] (control_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.981141] (control_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.983292] (ros2_control_test_assets) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.986555] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.025918] (-) TimerEvent: {}
+[2.127496] (-) TimerEvent: {}
+[2.202701] (control_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.205338] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.228136] (-) TimerEvent: {}
+[2.239859] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.241944] (control_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.243056] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.243671] (control_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.273733] (ros2_control_test_assets) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.274637] (control_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.328859] (-) TimerEvent: {}
+[2.365421] (control_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.366071] (control_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.366925] (ros2_control_test_assets) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.367504] (ros2_control_test_assets) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.429536] (-) TimerEvent: {}
+[2.531060] (-) TimerEvent: {}
+[2.632649] (-) TimerEvent: {}
+[2.733418] (-) TimerEvent: {}
+[2.834894] (-) TimerEvent: {}
+[2.935808] (-) TimerEvent: {}
+[3.037329] (-) TimerEvent: {}
+[3.038459] (ros2_control_test_assets) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.039930] (control_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[3.137940] (-) TimerEvent: {}
+[3.174024] (control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.233303] (control_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.238582] (-) TimerEvent: {}
+[3.295219] (ros2_control_test_assets) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.305227] (ros2_control_test_assets) StdoutLine: {'line': b'-- Generating done\n'}
+[3.310106] (ros2_control_test_assets) StdoutLine: {'line': b'-- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets\n'}
+[3.327744] (ros2_control_test_assets) CommandEnded: {'returncode': 0}
+[3.331947] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'build'}
+[3.332165] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets', '--', '-j2', '-l2'], 'cwd': '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diego'), ('OLDPWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1321'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/diego/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:34949'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diego-VirtualBox:@/tmp/.ICE-unix/1538,unix/diego-VirtualBox:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', '14cb6d99c25e4648ade0014d7d95e869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d1261bb_cced_4368_b95f_13f3fc9cedd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.339279] (-) TimerEvent: {}
+[3.440999] (-) TimerEvent: {}
+[3.455607] (ros2_control_test_assets) CommandEnded: {'returncode': 0}
+[3.528324] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'install'}
+[3.541571] (-) TimerEvent: {}
+[3.557598] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets'], 'cwd': '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diego'), ('OLDPWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1321'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/diego/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:34949'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diego-VirtualBox:@/tmp/.ICE-unix/1538,unix/diego-VirtualBox:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', '14cb6d99c25e4648ade0014d7d95e869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d1261bb_cced_4368_b95f_13f3fc9cedd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.584386] (control_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.606046] (ros2_control_test_assets) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.606829] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include\n'}
+[3.607164] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets\n'}
+[3.607378] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp\n'}
+[3.607637] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp\n'}
+[3.608115] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets\n'}
+[3.609055] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets\n'}
+[3.610270] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh\n'}
+[3.610840] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv\n'}
+[3.611450] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh\n'}
+[3.612121] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv\n'}
+[3.613410] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash\n'}
+[3.614272] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh\n'}
+[3.615025] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh\n'}
+[3.615790] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv\n'}
+[3.616705] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv\n'}
+[3.617342] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets\n'}
+[3.618002] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.618762] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake\n'}
+[3.619381] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake\n'}
+[3.621277] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml\n'}
+[3.627804] (ros2_control_test_assets) CommandEnded: {'returncode': 0}
+[3.642206] (-) TimerEvent: {}
+[3.701572] (control_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.743000] (-) TimerEvent: {}
+[3.852263] (-) TimerEvent: {}
+[3.892456] (ros2_control_test_assets) JobEnded: {'identifier': 'ros2_control_test_assets', 'rc': 0}
+[3.896554] (controller_manager_msgs) JobStarted: {'identifier': 'controller_manager_msgs'}
+[3.949252] (controller_manager_msgs) JobProgress: {'identifier': 'controller_manager_msgs', 'progress': 'cmake'}
+[3.950529] (controller_manager_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/controller_manager_msgs', '-DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs'], 'cwd': '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diego'), ('OLDPWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1321'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/diego/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:34949'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diego-VirtualBox:@/tmp/.ICE-unix/1538,unix/diego-VirtualBox:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', '14cb6d99c25e4648ade0014d7d95e869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d1261bb_cced_4368_b95f_13f3fc9cedd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.964199] (-) TimerEvent: {}
+[4.071937] (-) TimerEvent: {}
+[4.114302] (control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.141101] (controller_manager_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[4.172760] (-) TimerEvent: {}
+[4.269889] (control_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.273539] (-) TimerEvent: {}
+[4.308133] (controller_manager_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.321676] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.333795] (control_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)\n'}
+[4.373963] (-) TimerEvent: {}
+[4.475609] (-) TimerEvent: {}
+[4.504424] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.507057] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.507445] (control_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[4.576402] (-) TimerEvent: {}
+[4.677985] (-) TimerEvent: {}
+[4.687836] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.722261] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.723344] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.730143] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.743695] (control_msgs) StdoutLine: {'line': b'-- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)\n'}
+[4.778512] (-) TimerEvent: {}
+[4.880178] (-) TimerEvent: {}
+[4.931372] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.934145] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.981089] (-) TimerEvent: {}
+[4.993638] (control_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.083806] (-) TimerEvent: {}
+[5.136560] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.164429] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.165500] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.169776] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.184381] (-) TimerEvent: {}
+[5.233217] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.233601] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.284817] (-) TimerEvent: {}
+[5.341392] (control_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[5.385521] (-) TimerEvent: {}
+[5.486953] (-) TimerEvent: {}
+[5.588638] (-) TimerEvent: {}
+[5.689484] (-) TimerEvent: {}
+[5.776500] (controller_manager_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[5.789882] (-) TimerEvent: {}
+[5.843822] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.859343] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.890550] (-) TimerEvent: {}
+[5.992200] (-) TimerEvent: {}
+[6.048360] (controller_manager_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.092934] (-) TimerEvent: {}
+[6.116709] (control_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.123749] (controller_manager_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.193920] (-) TimerEvent: {}
+[6.294785] (-) TimerEvent: {}
+[6.302986] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.368828] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.394586] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.394979] (-) TimerEvent: {}
+[6.496501] (-) TimerEvent: {}
+[6.597243] (-) TimerEvent: {}
+[6.643504] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.697888] (-) TimerEvent: {}
+[6.798809] (-) TimerEvent: {}
+[6.900043] (-) TimerEvent: {}
+[7.001612] (-) TimerEvent: {}
+[7.011513] (control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.082679] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.102340] (-) TimerEvent: {}
+[7.203894] (-) TimerEvent: {}
+[7.304812] (-) TimerEvent: {}
+[7.374966] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.405188] (-) TimerEvent: {}
+[7.426676] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.432658] (control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.501523] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.505898] (-) TimerEvent: {}
+[7.509582] (controller_manager_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[7.515878] (control_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.520139] (control_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[7.597205] (control_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.597612] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.597924] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.598085] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[7.598223] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[7.599376] (control_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.599799] (control_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[7.599963] (control_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[7.606512] (-) TimerEvent: {}
+[7.657609] (control_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.659978] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.707294] (-) TimerEvent: {}
+[7.804385] (controller_manager_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.807822] (-) TimerEvent: {}
+[7.813670] (controller_manager_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.820122] (controller_manager_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.856233] (controller_manager_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.912915] (-) TimerEvent: {}
+[7.972096] (control_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.979730] (control_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.983448] (control_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.002006] (control_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.014264] (-) TimerEvent: {}
+[8.061039] (controller_manager_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.069996] (controller_manager_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs\n'}
+[8.097192] (controller_manager_msgs) CommandEnded: {'returncode': 0}
+[8.100422] (controller_manager_msgs) JobProgress: {'identifier': 'controller_manager_msgs', 'progress': 'build'}
+[8.104941] (controller_manager_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs', '--', '-j2', '-l2'], 'cwd': '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diego'), ('OLDPWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1321'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/diego/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:34949'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diego-VirtualBox:@/tmp/.ICE-unix/1538,unix/diego-VirtualBox:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', '14cb6d99c25e4648ade0014d7d95e869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d1261bb_cced_4368_b95f_13f3fc9cedd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.119690] (-) TimerEvent: {}
+[8.221229] (-) TimerEvent: {}
+[8.233264] (controller_manager_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.271996] (controller_manager_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller_manager_msgs__cpp\x1b[0m\n'}
+[8.321804] (-) TimerEvent: {}
+[8.333298] (controller_manager_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.401131] (control_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.408535] (control_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs\n'}
+[8.422504] (-) TimerEvent: {}
+[8.442308] (control_msgs) CommandEnded: {'returncode': 0}
+[8.445197] (control_msgs) JobProgress: {'identifier': 'control_msgs', 'progress': 'build'}
+[8.452346] (control_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs', '--', '-j2', '-l2'], 'cwd': '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diego'), ('OLDPWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1321'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/diego/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diego'), ('JOURNAL_STREAM', '8:34949'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'diego'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/diego/Workspaces/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diego-VirtualBox:@/tmp/.ICE-unix/1538,unix/diego-VirtualBox:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', '14cb6d99c25e4648ade0014d7d95e869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d1261bb_cced_4368_b95f_13f3fc9cedd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/diego/Workspaces/ros2_control_diffbot_ws/build/control_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.523070] (-) TimerEvent: {}
+[8.609250] (control_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.623828] (-) TimerEvent: {}
+[8.650705] (control_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control_msgs__cpp\x1b[0m\n'}
+[8.724400] (-) TimerEvent: {}
+[8.741425] (control_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.825211] (-) TimerEvent: {}
+[8.926794] (-) TimerEvent: {}
+[9.028497] (-) TimerEvent: {}
+[9.130032] (-) TimerEvent: {}
+[9.231514] (-) TimerEvent: {}
+[9.333246] (-) TimerEvent: {}
+[9.434764] (-) TimerEvent: {}
+[9.535607] (-) TimerEvent: {}
+[9.637114] (-) TimerEvent: {}
+[9.738692] (-) TimerEvent: {}
+[9.839719] (-) TimerEvent: {}
+[9.941130] (-) TimerEvent: {}
+[10.042604] (-) TimerEvent: {}
+[10.144247] (-) TimerEvent: {}
+[10.245929] (-) TimerEvent: {}
+[10.346562] (-) TimerEvent: {}
+[10.447183] (-) TimerEvent: {}
+[10.548834] (-) TimerEvent: {}
+[10.649545] (-) TimerEvent: {}
+[10.750253] (-) TimerEvent: {}
+[10.851717] (-) TimerEvent: {}
+[10.952466] (-) TimerEvent: {}
+[11.053143] (-) TimerEvent: {}
+[11.154638] (-) TimerEvent: {}
+[11.256436] (-) TimerEvent: {}
+[11.357935] (-) TimerEvent: {}
+[11.458542] (-) TimerEvent: {}
+[11.559210] (-) TimerEvent: {}
+[11.659938] (-) TimerEvent: {}
+[11.760668] (-) TimerEvent: {}
+[11.862111] (-) TimerEvent: {}
+[11.963775] (-) TimerEvent: {}
+[12.064605] (-) TimerEvent: {}
+[12.166062] (-) TimerEvent: {}
+[12.267678] (-) TimerEvent: {}
+[12.368422] (-) TimerEvent: {}
+[12.470268] (-) TimerEvent: {}
+[12.571636] (-) TimerEvent: {}
+[12.673196] (-) TimerEvent: {}
+[12.774040] (-) TimerEvent: {}
+[12.875662] (-) TimerEvent: {}
+[12.977147] (-) TimerEvent: {}
+[13.079203] (-) TimerEvent: {}
+[13.180518] (-) TimerEvent: {}
+[13.283614] (-) TimerEvent: {}
+[13.384657] (-) TimerEvent: {}
+[13.486235] (-) TimerEvent: {}
+[13.586904] (-) TimerEvent: {}
+[13.688533] (-) TimerEvent: {}
+[13.790084] (-) TimerEvent: {}
+[13.891784] (-) TimerEvent: {}
+[13.993381] (-) TimerEvent: {}
+[14.094988] (-) TimerEvent: {}
+[14.196734] (-) TimerEvent: {}
+[14.299389] (-) TimerEvent: {}
+[14.400880] (-) TimerEvent: {}
+[14.501590] (-) TimerEvent: {}
+[14.603159] (-) TimerEvent: {}
+[14.704874] (-) TimerEvent: {}
+[14.806609] (-) TimerEvent: {}
+[14.908043] (-) TimerEvent: {}
+[15.008760] (-) TimerEvent: {}
+[15.110328] (-) TimerEvent: {}
+[15.211948] (-) TimerEvent: {}
+[15.312993] (-) TimerEvent: {}
+[15.416683] (-) TimerEvent: {}
+[15.518863] (-) TimerEvent: {}
+[15.620558] (-) TimerEvent: {}
+[15.721310] (-) TimerEvent: {}
+[15.822719] (-) TimerEvent: {}
+[15.924317] (-) TimerEvent: {}
+[16.025031] (-) TimerEvent: {}
+[16.126565] (-) TimerEvent: {}
+[16.228223] (-) TimerEvent: {}
+[16.329206] (-) TimerEvent: {}
+[16.430673] (-) TimerEvent: {}
+[16.532107] (-) TimerEvent: {}
+[16.632763] (-) TimerEvent: {}
+[16.656286] (controller_manager_msgs) StdoutLine: {'line': b'[  1%] Built target controller_manager_msgs__cpp\n'}
+[16.733526] (-) TimerEvent: {}
+[16.742545] (controller_manager_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.834110] (-) TimerEvent: {}
+[16.934849] (-) TimerEvent: {}
+[17.035563] (-) TimerEvent: {}
+[17.144329] (-) TimerEvent: {}
+[17.225585] (controller_manager_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller_manager_msgs__rosidl_generator_c\x1b[0m\n'}
+[17.245672] (-) TimerEvent: {}
+[17.334973] (controller_manager_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o\x1b[0m\n'}
+[17.346100] (-) TimerEvent: {}
+[17.446903] (-) TimerEvent: {}
+[17.547575] (-) TimerEvent: {}
+[17.621417] (controller_manager_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__functions.c.o\x1b[0m\n'}
+[17.648060] (-) TimerEvent: {}
+[17.748787] (-) TimerEvent: {}
+[17.827348] (controller_manager_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__functions.c.o\x1b[0m\n'}
+[17.849401] (-) TimerEvent: {}
+[17.951023] (-) TimerEvent: {}
+[18.051740] (-) TimerEvent: {}
+[18.071184] (controller_manager_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_start_controller__functions.c.o\x1b[0m\n'}
+[18.152276] (-) TimerEvent: {}
+[18.254131] (-) TimerEvent: {}
+[18.333643] (controller_manager_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o\x1b[0m\n'}
+[18.354677] (-) TimerEvent: {}
+[18.456246] (-) TimerEvent: {}
+[18.557769] (-) TimerEvent: {}
+[18.580354] (controller_manager_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o\x1b[0m\n'}
+[18.658621] (-) TimerEvent: {}
+[18.760128] (-) TimerEvent: {}
+[18.857059] (controller_manager_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c.o\x1b[0m\n'}
+[18.860873] (-) TimerEvent: {}
+[18.962364] (-) TimerEvent: {}
+[19.081694] (-) TimerEvent: {}
+[19.101421] (controller_manager_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_configure_controller__functions.c.o\x1b[0m\n'}
+[19.182262] (-) TimerEvent: {}
+[19.283855] (-) TimerEvent: {}
+[19.334462] (controller_manager_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o\x1b[0m\n'}
+[19.384887] (-) TimerEvent: {}
+[19.486160] (-) TimerEvent: {}
+[19.588846] (-) TimerEvent: {}
+[19.637237] (controller_manager_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_start_controller__functions.c.o\x1b[0m\n'}
+[19.689690] (-) TimerEvent: {}
+[19.791045] (-) TimerEvent: {}
+[19.870432] (controller_manager_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o\x1b[0m\n'}
+[19.891721] (-) TimerEvent: {}
+[19.993660] (-) TimerEvent: {}
+[20.094918] (-) TimerEvent: {}
+[20.105249] (controller_manager_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o\x1b[0m\n'}
+[20.195758] (-) TimerEvent: {}
+[20.297326] (-) TimerEvent: {}
+[20.345106] (controller_manager_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o\x1b[0m\n'}
+[20.397855] (-) TimerEvent: {}
+[20.500809] (-) TimerEvent: {}
+[20.556849] (controller_manager_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[20.601236] (-) TimerEvent: {}
+[20.702839] (-) TimerEvent: {}
+[20.790520] (controller_manager_msgs) StdoutLine: {'line': b'[ 13%] Built target controller_manager_msgs__rosidl_generator_c\n'}
+[20.803467] (-) TimerEvent: {}
+[20.862287] (controller_manager_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.904092] (-) TimerEvent: {}
+[21.005685] (-) TimerEvent: {}
+[21.107341] (-) TimerEvent: {}
+[21.209033] (-) TimerEvent: {}
+[21.259228] (controller_manager_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[21.309657] (-) TimerEvent: {}
+[21.397789] (controller_manager_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o\x1b[0m\n'}
+[21.410200] (-) TimerEvent: {}
+[21.511975] (-) TimerEvent: {}
+[21.613187] (-) TimerEvent: {}
+[21.697007] (control_msgs) StdoutLine: {'line': b'[  1%] Built target control_msgs__cpp\n'}
+[21.714140] (-) TimerEvent: {}
+[21.770117] (control_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.814822] (-) TimerEvent: {}
+[21.916382] (-) TimerEvent: {}
+[22.017283] (-) TimerEvent: {}
+[22.118700] (-) TimerEvent: {}
+[22.220298] (-) TimerEvent: {}
+[22.230580] (control_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control_msgs__rosidl_generator_c\x1b[0m\n'}
+[22.321253] (-) TimerEvent: {}
+[22.411118] (control_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/dynamic_joint_state__functions.c.o\x1b[0m\n'}
+[22.421734] (-) TimerEvent: {}
+[22.524078] (-) TimerEvent: {}
+[22.592446] (control_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/gripper_command__functions.c.o\x1b[0m\n'}
+[22.624942] (-) TimerEvent: {}
+[22.725581] (-) TimerEvent: {}
+[22.726358] (control_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/interface_value__functions.c.o\x1b[0m\n'}
+[22.826137] (-) TimerEvent: {}
+[22.927004] (-) TimerEvent: {}
+[22.976984] (control_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_controller_state__functions.c.o\x1b[0m\n'}
+[23.028746] (-) TimerEvent: {}
+[23.131147] (-) TimerEvent: {}
+[23.232968] (-) TimerEvent: {}
+[23.330276] (controller_manager_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o\x1b[0m\n'}
+[23.333337] (-) TimerEvent: {}
+[23.349503] (control_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_jog__functions.c.o\x1b[0m\n'}
+[23.433931] (-) TimerEvent: {}
+[23.534639] (-) TimerEvent: {}
+[23.609316] (control_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_tolerance__functions.c.o\x1b[0m\n'}
+[23.635279] (-) TimerEvent: {}
+[23.736959] (-) TimerEvent: {}
+[23.832940] (control_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c.o\x1b[0m\n'}
+[23.837610] (-) TimerEvent: {}
+[23.938792] (-) TimerEvent: {}
+[23.974573] (control_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/pid_state__functions.c.o\x1b[0m\n'}
+[24.039836] (-) TimerEvent: {}
+[24.140843] (-) TimerEvent: {}
+[24.240405] (control_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_calibration_state__functions.c.o\x1b[0m\n'}
+[24.241335] (-) TimerEvent: {}
+[24.342847] (-) TimerEvent: {}
+[24.444403] (-) TimerEvent: {}
+[24.548093] (-) TimerEvent: {}
+[24.650119] (-) TimerEvent: {}
+[24.672377] (control_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_trajectory_state__functions.c.o\x1b[0m\n'}
+[24.750359] (-) TimerEvent: {}
+[24.851814] (-) TimerEvent: {}
+[24.953119] (-) TimerEvent: {}
+[25.054071] (-) TimerEvent: {}
+[25.154933] (-) TimerEvent: {}
+[25.225443] (control_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/follow_joint_trajectory__functions.c.o\x1b[0m\n'}
+[25.255461] (-) TimerEvent: {}
+[25.357255] (-) TimerEvent: {}
+[25.459185] (-) TimerEvent: {}
+[25.560418] (-) TimerEvent: {}
+[25.661190] (-) TimerEvent: {}
+[25.763352] (-) TimerEvent: {}
+[25.865356] (-) TimerEvent: {}
+[25.929019] (controller_manager_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_controller__type_support.cpp.o\x1b[0m\n'}
+[25.965762] (-) TimerEvent: {}
+[26.067391] (-) TimerEvent: {}
+[26.077776] (control_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/gripper_command__functions.c.o\x1b[0m\n'}
+[26.168145] (-) TimerEvent: {}
+[26.269673] (-) TimerEvent: {}
+[26.371248] (-) TimerEvent: {}
+[26.472918] (-) TimerEvent: {}
+[26.574019] (-) TimerEvent: {}
+[26.675509] (-) TimerEvent: {}
+[26.747470] (control_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/joint_trajectory__functions.c.o\x1b[0m\n'}
+[26.776484] (-) TimerEvent: {}
+[26.877637] (-) TimerEvent: {}
+[26.979277] (-) TimerEvent: {}
+[27.081264] (-) TimerEvent: {}
+[27.184384] (-) TimerEvent: {}
+[27.286238] (-) TimerEvent: {}
+[27.387752] (-) TimerEvent: {}
+[27.442585] (control_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/point_head__functions.c.o\x1b[0m\n'}
+[27.488343] (-) TimerEvent: {}
+[27.589081] (-) TimerEvent: {}
+[27.690650] (-) TimerEvent: {}
+[27.791323] (-) TimerEvent: {}
+[27.892559] (-) TimerEvent: {}
+[27.985489] (controller_manager_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_start_controller__type_support.cpp.o\x1b[0m\n'}
+[27.993187] (-) TimerEvent: {}
+[27.998029] (control_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/single_joint_position__functions.c.o\x1b[0m\n'}
+[28.093802] (-) TimerEvent: {}
+[28.195409] (-) TimerEvent: {}
+[28.304170] (-) TimerEvent: {}
+[28.405553] (-) TimerEvent: {}
+[28.485519] (control_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libcontrol_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[28.506184] (-) TimerEvent: {}
+[28.607064] (-) TimerEvent: {}
+[28.708624] (-) TimerEvent: {}
+[28.810131] (-) TimerEvent: {}
+[28.818961] (control_msgs) StdoutLine: {'line': b'[ 13%] Built target control_msgs__rosidl_generator_c\n'}
+[28.910783] (-) TimerEvent: {}
+[29.011575] (-) TimerEvent: {}
+[29.113431] (-) TimerEvent: {}
+[29.203492] (controller_manager_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[29.213806] (-) TimerEvent: {}
+[29.315456] (-) TimerEvent: {}
+[29.417536] (-) TimerEvent: {}
+[29.477782] (controller_manager_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o\x1b[0m\n'}
+[29.518762] (-) TimerEvent: {}
+[29.620409] (-) TimerEvent: {}
+[29.721628] (-) TimerEvent: {}
+[29.771944] (controller_manager_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o\x1b[0m\n'}
+[29.822325] (-) TimerEvent: {}
+[29.923913] (-) TimerEvent: {}
+[30.024640] (-) TimerEvent: {}
+[30.126144] (-) TimerEvent: {}
+[30.227784] (-) TimerEvent: {}
+[30.329685] (-) TimerEvent: {}
+[30.431125] (-) TimerEvent: {}
+[30.533096] (-) TimerEvent: {}
+[30.634346] (-) TimerEvent: {}
+[30.717579] (control_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[30.735147] (-) TimerEvent: {}
+[30.837837] (-) TimerEvent: {}
+[30.939278] (-) TimerEvent: {}
+[30.993273] (control_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/dynamic_joint_state__type_support.cpp.o\x1b[0m\n'}
+[31.039831] (-) TimerEvent: {}
+[31.141699] (-) TimerEvent: {}
+[31.242878] (-) TimerEvent: {}
+[31.344512] (-) TimerEvent: {}
+[31.445300] (-) TimerEvent: {}
+[31.546828] (-) TimerEvent: {}
+[31.648481] (-) TimerEvent: {}
+[31.750067] (-) TimerEvent: {}
+[31.851219] (-) TimerEvent: {}
+[31.902489] (controller_manager_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o\x1b[0m\n'}
+[31.951551] (-) TimerEvent: {}
+[32.052744] (-) TimerEvent: {}
+[32.153819] (-) TimerEvent: {}
+[32.254837] (-) TimerEvent: {}
+[32.356474] (-) TimerEvent: {}
+[32.458133] (-) TimerEvent: {}
+[32.559862] (-) TimerEvent: {}
+[32.665633] (-) TimerEvent: {}
+[32.768886] (-) TimerEvent: {}
+[32.873396] (-) TimerEvent: {}
+[32.977017] (-) TimerEvent: {}
+[33.081183] (-) TimerEvent: {}
+[33.184825] (-) TimerEvent: {}
+[33.289336] (-) TimerEvent: {}
+[33.393326] (-) TimerEvent: {}
+[33.494703] (-) TimerEvent: {}
+[33.596356] (-) TimerEvent: {}
+[33.669452] (controller_manager_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_interface__type_support.cpp.o\x1b[0m\n'}
+[33.701619] (-) TimerEvent: {}
+[33.809297] (-) TimerEvent: {}
+[33.913970] (-) TimerEvent: {}
+[33.976843] (control_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/gripper_command__type_support.cpp.o\x1b[0m\n'}
+[34.021457] (-) TimerEvent: {}
+[34.122689] (-) TimerEvent: {}
+[34.224661] (-) TimerEvent: {}
+[34.328229] (-) TimerEvent: {}
+[34.430019] (-) TimerEvent: {}
+[34.531561] (-) TimerEvent: {}
+[34.633486] (-) TimerEvent: {}
+[34.735743] (-) TimerEvent: {}
+[34.836876] (-) TimerEvent: {}
+[34.938121] (-) TimerEvent: {}
+[34.967929] (controller_manager_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o\x1b[0m\n'}
+[35.039136] (-) TimerEvent: {}
+[35.140838] (-) TimerEvent: {}
+[35.246546] (-) TimerEvent: {}
+[35.348019] (-) TimerEvent: {}
+[35.449805] (-) TimerEvent: {}
+[35.551273] (-) TimerEvent: {}
+[35.653414] (-) TimerEvent: {}
+[35.758098] (-) TimerEvent: {}
+[35.859725] (-) TimerEvent: {}
+[35.961354] (-) TimerEvent: {}
+[36.062938] (-) TimerEvent: {}
+[36.164773] (-) TimerEvent: {}
+[36.266226] (-) TimerEvent: {}
+[36.367821] (-) TimerEvent: {}
+[36.469417] (-) TimerEvent: {}
+[36.571024] (-) TimerEvent: {}
+[36.672671] (-) TimerEvent: {}
+[36.673692] (control_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/interface_value__type_support.cpp.o\x1b[0m\n'}
+[36.773896] (-) TimerEvent: {}
+[36.876002] (-) TimerEvent: {}
+[36.977618] (-) TimerEvent: {}
+[37.078570] (-) TimerEvent: {}
+[37.181109] (-) TimerEvent: {}
+[37.261660] (controller_manager_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_configure_controller__type_support.cpp.o\x1b[0m\n'}
+[37.281444] (-) TimerEvent: {}
+[37.301194] (controller_manager_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_controller__type_support.cpp.o\x1b[0m\n'}
+[37.382152] (-) TimerEvent: {}
+[37.483296] (-) TimerEvent: {}
+[37.584471] (-) TimerEvent: {}
+[37.685614] (-) TimerEvent: {}
+[37.786852] (-) TimerEvent: {}
+[37.887991] (-) TimerEvent: {}
+[37.989671] (-) TimerEvent: {}
+[38.091213] (-) TimerEvent: {}
+[38.135775] (control_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_controller_state__type_support.cpp.o\x1b[0m\n'}
+[38.191848] (-) TimerEvent: {}
+[38.292732] (-) TimerEvent: {}
+[38.394097] (-) TimerEvent: {}
+[38.495831] (-) TimerEvent: {}
+[38.600252] (-) TimerEvent: {}
+[38.701447] (-) TimerEvent: {}
+[38.802725] (-) TimerEvent: {}
+[38.904284] (-) TimerEvent: {}
+[39.006005] (-) TimerEvent: {}
+[39.075777] (controller_manager_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_controller__type_support.cpp.o\x1b[0m\n'}
+[39.106566] (-) TimerEvent: {}
+[39.208215] (-) TimerEvent: {}
+[39.309773] (-) TimerEvent: {}
+[39.411286] (-) TimerEvent: {}
+[39.523917] (-) TimerEvent: {}
+[39.628973] (-) TimerEvent: {}
+[39.730642] (-) TimerEvent: {}
+[39.837203] (-) TimerEvent: {}
+[39.940813] (-) TimerEvent: {}
+[39.950538] (control_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_jog__type_support.cpp.o\x1b[0m\n'}
+[40.041488] (-) TimerEvent: {}
+[40.051461] (controller_manager_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_start_controller__type_support.cpp.o\x1b[0m\n'}
+[40.144967] (-) TimerEvent: {}
+[40.245522] (-) TimerEvent: {}
+[40.352148] (-) TimerEvent: {}
+[40.455766] (-) TimerEvent: {}
+[40.557372] (-) TimerEvent: {}
+[40.658742] (-) TimerEvent: {}
+[40.760275] (-) TimerEvent: {}
+[40.861756] (-) TimerEvent: {}
+[40.871161] (controller_manager_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_start_controller__type_support.cpp.o\x1b[0m\n'}
+[40.963041] (-) TimerEvent: {}
+[41.065303] (-) TimerEvent: {}
+[41.166717] (-) TimerEvent: {}
+[41.267778] (-) TimerEvent: {}
+[41.368897] (-) TimerEvent: {}
+[41.469953] (-) TimerEvent: {}
+[41.571229] (-) TimerEvent: {}
+[41.601417] (control_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_tolerance__type_support.cpp.o\x1b[0m\n'}
+[41.671871] (-) TimerEvent: {}
+[41.772816] (-) TimerEvent: {}
+[41.874184] (-) TimerEvent: {}
+[41.975792] (-) TimerEvent: {}
+[42.077493] (-) TimerEvent: {}
+[42.180061] (-) TimerEvent: {}
+[42.183664] (controller_manager_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o\x1b[0m\n'}
+[42.263547] (controller_manager_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controllers__type_support.cpp.o\x1b[0m\n'}
+[42.282732] (-) TimerEvent: {}
+[42.384204] (-) TimerEvent: {}
+[42.485815] (-) TimerEvent: {}
+[42.587746] (-) TimerEvent: {}
+[42.688944] (-) TimerEvent: {}
+[42.727560] (control_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_trajectory_controller_state__type_support.cpp.o\x1b[0m\n'}
+[42.789570] (-) TimerEvent: {}
+[42.891071] (-) TimerEvent: {}
+[42.991913] (-) TimerEvent: {}
+[43.093111] (-) TimerEvent: {}
+[43.194583] (-) TimerEvent: {}
+[43.295565] (-) TimerEvent: {}
+[43.397018] (-) TimerEvent: {}
+[43.497791] (-) TimerEvent: {}
+[43.583398] (controller_manager_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/switch_controller__type_support.cpp.o\x1b[0m\n'}
+[43.598171] (-) TimerEvent: {}
+[43.699848] (-) TimerEvent: {}
+[43.801583] (-) TimerEvent: {}
+[43.904124] (-) TimerEvent: {}
+[44.006128] (-) TimerEvent: {}
+[44.107369] (-) TimerEvent: {}
+[44.209030] (-) TimerEvent: {}
+[44.220361] (control_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/pid_state__type_support.cpp.o\x1b[0m\n'}
+[44.309788] (-) TimerEvent: {}
+[44.411992] (-) TimerEvent: {}
+[44.489395] (controller_manager_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controller_types__type_support.cpp.o\x1b[0m\n'}
+[44.513784] (-) TimerEvent: {}
+[44.615232] (-) TimerEvent: {}
+[44.716889] (-) TimerEvent: {}
+[44.818432] (-) TimerEvent: {}
+[44.853142] (controller_manager_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/unload_controller__type_support.cpp.o\x1b[0m\n'}
+[44.923639] (-) TimerEvent: {}
+[45.024843] (-) TimerEvent: {}
+[45.128276] (-) TimerEvent: {}
+[45.229070] (-) TimerEvent: {}
+[45.334927] (-) TimerEvent: {}
+[45.442027] (-) TimerEvent: {}
+[45.544621] (-) TimerEvent: {}
+[45.646184] (-) TimerEvent: {}
+[45.748138] (-) TimerEvent: {}
+[45.786977] (control_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/srv/query_calibration_state__type_support.cpp.o\x1b[0m\n'}
+[45.849755] (-) TimerEvent: {}
+[45.951068] (-) TimerEvent: {}
+[46.052794] (-) TimerEvent: {}
+[46.154465] (-) TimerEvent: {}
+[46.256078] (-) TimerEvent: {}
+[46.321686] (controller_manager_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[46.356689] (-) TimerEvent: {}
+[46.458210] (-) TimerEvent: {}
+[46.498293] (controller_manager_msgs) StdoutLine: {'line': b'[ 30%] Built target controller_manager_msgs__rosidl_typesupport_cpp\n'}
+[46.510704] (controller_manager_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_interfaces__type_support.cpp.o\x1b[0m\n'}
+[46.558977] (-) TimerEvent: {}
+[46.660515] (-) TimerEvent: {}
+[46.761168] (-) TimerEvent: {}
+[46.861876] (-) TimerEvent: {}
+[46.865685] (control_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/srv/query_trajectory_state__type_support.cpp.o\x1b[0m\n'}
+[46.962455] (-) TimerEvent: {}
+[47.064119] (-) TimerEvent: {}
+[47.165816] (-) TimerEvent: {}
+[47.267411] (-) TimerEvent: {}
+[47.369091] (-) TimerEvent: {}
+[47.470724] (-) TimerEvent: {}
+[47.572201] (-) TimerEvent: {}
+[47.630424] (control_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/follow_joint_trajectory__type_support.cpp.o\x1b[0m\n'}
+[47.672945] (-) TimerEvent: {}
+[47.774524] (-) TimerEvent: {}
+[47.876105] (-) TimerEvent: {}
+[47.895312] (controller_manager_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_configure_controller__type_support.cpp.o\x1b[0m\n'}
+[47.977803] (-) TimerEvent: {}
+[48.079414] (-) TimerEvent: {}
+[48.181216] (-) TimerEvent: {}
+[48.282645] (-) TimerEvent: {}
+[48.384283] (-) TimerEvent: {}
+[48.484941] (-) TimerEvent: {}
+[48.525007] (control_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/gripper_command__type_support.cpp.o\x1b[0m\n'}
+[48.585640] (-) TimerEvent: {}
+[48.687217] (-) TimerEvent: {}
+[48.788878] (-) TimerEvent: {}
+[48.889544] (-) TimerEvent: {}
+[48.991118] (-) TimerEvent: {}
+[49.091754] (-) TimerEvent: {}
+[49.157382] (controller_manager_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_controller__type_support.cpp.o\x1b[0m\n'}
+[49.192389] (-) TimerEvent: {}
+[49.293181] (-) TimerEvent: {}
+[49.394719] (-) TimerEvent: {}
+[49.415033] (control_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/joint_trajectory__type_support.cpp.o\x1b[0m\n'}
+[49.495361] (-) TimerEvent: {}
+[49.595966] (-) TimerEvent: {}
+[49.697660] (-) TimerEvent: {}
+[49.798312] (-) TimerEvent: {}
+[49.899877] (-) TimerEvent: {}
+[50.001591] (-) TimerEvent: {}
+[50.105156] (-) TimerEvent: {}
+[50.206746] (-) TimerEvent: {}
+[50.308331] (-) TimerEvent: {}
+[50.383867] (control_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/point_head__type_support.cpp.o\x1b[0m\n'}
+[50.402790] (controller_manager_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_start_controller__type_support.cpp.o\x1b[0m\n'}
+[50.409153] (-) TimerEvent: {}
+[50.510611] (-) TimerEvent: {}
+[50.613326] (-) TimerEvent: {}
+[50.714876] (-) TimerEvent: {}
+[50.816474] (-) TimerEvent: {}
+[50.918103] (-) TimerEvent: {}
+[51.019753] (-) TimerEvent: {}
+[51.121533] (-) TimerEvent: {}
+[51.223012] (-) TimerEvent: {}
+[51.315558] (control_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/single_joint_position__type_support.cpp.o\x1b[0m\n'}
+[51.323655] (-) TimerEvent: {}
+[51.425357] (-) TimerEvent: {}
+[51.526894] (-) TimerEvent: {}
+[51.628512] (-) TimerEvent: {}
+[51.694187] (controller_manager_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/reload_controller_libraries__type_support.cpp.o\x1b[0m\n'}
+[51.729326] (-) TimerEvent: {}
+[51.830967] (-) TimerEvent: {}
+[51.932587] (-) TimerEvent: {}
+[52.034103] (-) TimerEvent: {}
+[52.134786] (-) TimerEvent: {}
+[52.228839] (control_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[52.235459] (-) TimerEvent: {}
+[52.337140] (-) TimerEvent: {}
+[52.383317] (control_msgs) StdoutLine: {'line': b'[ 24%] Built target control_msgs__rosidl_typesupport_cpp\n'}
+[52.412917] (control_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[52.458254] (-) TimerEvent: {}
+[52.559757] (-) TimerEvent: {}
+[52.662031] (-) TimerEvent: {}
+[52.763330] (-) TimerEvent: {}
+[52.864809] (-) TimerEvent: {}
+[52.965502] (-) TimerEvent: {}
+[52.997177] (controller_manager_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/switch_controller__type_support.cpp.o\x1b[0m\n'}
+[53.065881] (-) TimerEvent: {}
+[53.166729] (-) TimerEvent: {}
+[53.268362] (-) TimerEvent: {}
+[53.369917] (-) TimerEvent: {}
+[53.471543] (-) TimerEvent: {}
+[53.573173] (-) TimerEvent: {}
+[53.674001] (-) TimerEvent: {}
+[53.775374] (-) TimerEvent: {}
+[53.877122] (-) TimerEvent: {}
+[53.978638] (-) TimerEvent: {}
+[54.080306] (-) TimerEvent: {}
+[54.181839] (-) TimerEvent: {}
+[54.284162] (-) TimerEvent: {}
+[54.309603] (controller_manager_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/unload_controller__type_support.cpp.o\x1b[0m\n'}
+[54.385156] (-) TimerEvent: {}
+[54.486760] (-) TimerEvent: {}
+[54.589357] (-) TimerEvent: {}
+[54.690956] (-) TimerEvent: {}
+[54.793066] (-) TimerEvent: {}
+[54.895914] (-) TimerEvent: {}
+[55.004831] (-) TimerEvent: {}
+[55.105490] (-) TimerEvent: {}
+[55.214310] (-) TimerEvent: {}
+[55.315619] (-) TimerEvent: {}
+[55.417113] (-) TimerEvent: {}
+[55.518701] (-) TimerEvent: {}
+[55.620296] (-) TimerEvent: {}
+[55.721005] (-) TimerEvent: {}
+[55.807124] (controller_manager_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[55.821562] (-) TimerEvent: {}
+[55.922798] (-) TimerEvent: {}
+[56.024067] (-) TimerEvent: {}
+[56.125542] (-) TimerEvent: {}
+[56.145986] (controller_manager_msgs) StdoutLine: {'line': b'[ 36%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[56.174808] (controller_manager_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[56.226150] (-) TimerEvent: {}
+[56.326963] (-) TimerEvent: {}
+[56.428423] (-) TimerEvent: {}
+[56.529261] (-) TimerEvent: {}
+[56.630738] (-) TimerEvent: {}
+[56.732544] (-) TimerEvent: {}
+[56.834004] (-) TimerEvent: {}
+[56.935521] (-) TimerEvent: {}
+[57.036292] (-) TimerEvent: {}
+[57.136992] (-) TimerEvent: {}
+[57.237640] (-) TimerEvent: {}
+[57.339252] (-) TimerEvent: {}
+[57.440772] (-) TimerEvent: {}
+[57.541459] (-) TimerEvent: {}
+[57.642153] (-) TimerEvent: {}
+[57.743703] (-) TimerEvent: {}
+[57.844326] (-) TimerEvent: {}
+[57.945047] (-) TimerEvent: {}
+[58.046764] (-) TimerEvent: {}
+[58.148421] (-) TimerEvent: {}
+[58.249865] (-) TimerEvent: {}
+[58.350631] (-) TimerEvent: {}
+[58.360977] (control_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[58.441650] (control_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/dynamic_joint_state__type_support.cpp.o\x1b[0m\n'}
+[58.451354] (-) TimerEvent: {}
+[58.552872] (-) TimerEvent: {}
+[58.654466] (-) TimerEvent: {}
+[58.755265] (-) TimerEvent: {}
+[58.856741] (-) TimerEvent: {}
+[58.958492] (-) TimerEvent: {}
+[59.060019] (-) TimerEvent: {}
+[59.161677] (-) TimerEvent: {}
+[59.225459] (controller_manager_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[59.262215] (-) TimerEvent: {}
+[59.301494] (controller_manager_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o\x1b[0m\n'}
+[59.362948] (-) TimerEvent: {}
+[59.386767] (controller_manager_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o\x1b[0m\n'}
+[59.463567] (-) TimerEvent: {}
+[59.471535] (controller_manager_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o\x1b[0m\n'}
+[59.554464] (controller_manager_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_start_controller__type_support.c.o\x1b[0m\n'}
+[59.565398] (-) TimerEvent: {}
+[59.641297] (controller_manager_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o\x1b[0m\n'}
+[59.665920] (-) TimerEvent: {}
+[59.749114] (controller_manager_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o\x1b[0m\n'}
+[59.766473] (-) TimerEvent: {}
+[59.839032] (controller_manager_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o\x1b[0m\n'}
+[59.867149] (-) TimerEvent: {}
+[59.935162] (controller_manager_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_configure_controller__type_support.c.o\x1b[0m\n'}
+[59.967802] (-) TimerEvent: {}
+[60.037539] (controller_manager_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o\x1b[0m\n'}
+[60.068448] (-) TimerEvent: {}
+[60.128713] (controller_manager_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_start_controller__type_support.c.o\x1b[0m\n'}
+[60.139854] (control_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/gripper_command__type_support.cpp.o\x1b[0m\n'}
+[60.169180] (-) TimerEvent: {}
+[60.213528] (controller_manager_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o\x1b[0m\n'}
+[60.269736] (-) TimerEvent: {}
+[60.289300] (controller_manager_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o\x1b[0m\n'}
+[60.370551] (-) TimerEvent: {}
+[60.378730] (controller_manager_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o\x1b[0m\n'}
+[60.457060] (controller_manager_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[60.471151] (-) TimerEvent: {}
+[60.543893] (controller_manager_msgs) StdoutLine: {'line': b'[ 48%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c\n'}
+[60.571767] (-) TimerEvent: {}
+[60.572983] (controller_manager_msgs) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[60.672353] (-) TimerEvent: {}
+[60.773975] (-) TimerEvent: {}
+[60.875744] (-) TimerEvent: {}
+[60.977351] (-) TimerEvent: {}
+[61.078863] (-) TimerEvent: {}
+[61.179934] (-) TimerEvent: {}
+[61.283727] (-) TimerEvent: {}
+[61.340631] (control_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/interface_value__type_support.cpp.o\x1b[0m\n'}
+[61.387796] (-) TimerEvent: {}
+[61.489278] (-) TimerEvent: {}
+[61.590067] (-) TimerEvent: {}
+[61.691872] (-) TimerEvent: {}
+[61.793358] (-) TimerEvent: {}
+[61.894902] (-) TimerEvent: {}
+[61.996784] (-) TimerEvent: {}
+[62.098073] (-) TimerEvent: {}
+[62.199682] (-) TimerEvent: {}
+[62.301507] (-) TimerEvent: {}
+[62.402973] (-) TimerEvent: {}
+[62.504575] (-) TimerEvent: {}
+[62.605310] (-) TimerEvent: {}
+[62.706035] (-) TimerEvent: {}
+[62.807536] (-) TimerEvent: {}
+[62.909241] (-) TimerEvent: {}
+[62.983659] (control_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_controller_state__type_support.cpp.o\x1b[0m\n'}
+[63.009749] (-) TimerEvent: {}
+[63.070807] (controller_manager_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[63.110441] (-) TimerEvent: {}
+[63.123567] (controller_manager_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o\x1b[0m\n'}
+[63.211055] (controller_manager_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o\x1b[0m\n'}
+[63.211403] (-) TimerEvent: {}
+[63.295714] (controller_manager_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_controller__type_support.cpp.o\x1b[0m\n'}
+[63.311814] (-) TimerEvent: {}
+[63.384220] (controller_manager_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_start_controller__type_support.cpp.o\x1b[0m\n'}
+[63.412390] (-) TimerEvent: {}
+[63.464235] (controller_manager_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controllers__type_support.cpp.o\x1b[0m\n'}
+[63.513124] (-) TimerEvent: {}
+[63.547919] (controller_manager_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o\x1b[0m\n'}
+[63.613368] (-) TimerEvent: {}
+[63.635737] (controller_manager_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o\x1b[0m\n'}
+[63.714511] (-) TimerEvent: {}
+[63.741054] (controller_manager_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_configure_controller__type_support.cpp.o\x1b[0m\n'}
+[63.814960] (-) TimerEvent: {}
+[63.831136] (controller_manager_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_controller__type_support.cpp.o\x1b[0m\n'}
+[63.915729] (-) TimerEvent: {}
+[63.920528] (controller_manager_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_start_controller__type_support.cpp.o\x1b[0m\n'}
+[64.016376] (-) TimerEvent: {}
+[64.019615] (controller_manager_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o\x1b[0m\n'}
+[64.106865] (controller_manager_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/switch_controller__type_support.cpp.o\x1b[0m\n'}
+[64.116999] (-) TimerEvent: {}
+[64.188942] (controller_manager_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/unload_controller__type_support.cpp.o\x1b[0m\n'}
+[64.217557] (-) TimerEvent: {}
+[64.274722] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[64.318287] (-) TimerEvent: {}
+[64.365296] (control_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_jog__type_support.cpp.o\x1b[0m\n'}
+[64.405555] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] Built target controller_manager_msgs__rosidl_typesupport_c\n'}
+[64.418885] (-) TimerEvent: {}
+[64.434966] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[64.519753] (-) TimerEvent: {}
+[64.621366] (-) TimerEvent: {}
+[64.722845] (-) TimerEvent: {}
+[64.824401] (-) TimerEvent: {}
+[64.925069] (-) TimerEvent: {}
+[65.026657] (-) TimerEvent: {}
+[65.127291] (-) TimerEvent: {}
+[65.227967] (-) TimerEvent: {}
+[65.328704] (-) TimerEvent: {}
+[65.429357] (-) TimerEvent: {}
+[65.531330] (-) TimerEvent: {}
+[65.632577] (-) TimerEvent: {}
+[65.733253] (-) TimerEvent: {}
+[65.834789] (-) TimerEvent: {}
+[65.871848] (control_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_tolerance__type_support.cpp.o\x1b[0m\n'}
+[65.935466] (-) TimerEvent: {}
+[66.036159] (-) TimerEvent: {}
+[66.136815] (-) TimerEvent: {}
+[66.238424] (-) TimerEvent: {}
+[66.339660] (-) TimerEvent: {}
+[66.443170] (-) TimerEvent: {}
+[66.548189] (-) TimerEvent: {}
+[66.649011] (-) TimerEvent: {}
+[66.750454] (-) TimerEvent: {}
+[66.852093] (-) TimerEvent: {}
+[66.952807] (-) TimerEvent: {}
+[67.054350] (-) TimerEvent: {}
+[67.081902] (control_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_trajectory_controller_state__type_support.cpp.o\x1b[0m\n'}
+[67.155096] (-) TimerEvent: {}
+[67.256713] (-) TimerEvent: {}
+[67.358728] (-) TimerEvent: {}
+[67.459939] (-) TimerEvent: {}
+[67.467915] (controller_manager_msgs) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[67.469891] (controller_manager_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:117: rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp] Interrupt\n'}
+[67.470247] (controller_manager_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:468: CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[67.470415] (control_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:324: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_trajectory_controller_state__type_support.cpp.o] Interrupt\n'}
+[67.475201] (control_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[67.475736] (controller_manager_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[67.475935] (control_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[67.482027] (controller_manager_msgs) CommandEnded: {'returncode': -2}
+[67.487418] (control_msgs) CommandEnded: {'returncode': -2}
+[67.560759] (-) TimerEvent: {}
+[67.662160] (-) TimerEvent: {}
+[67.763519] (-) TimerEvent: {}
+[67.865341] (-) TimerEvent: {}
+[67.967067] (-) TimerEvent: {}
+[68.068948] (-) TimerEvent: {}
+[68.170520] (-) TimerEvent: {}
+[68.272031] (-) TimerEvent: {}
+[68.338488] (controller_manager_msgs) JobEnded: {'identifier': 'controller_manager_msgs', 'rc': 'SIGINT'}
+[68.373859] (control_msgs) JobEnded: {'identifier': 'control_msgs', 'rc': 'SIGINT'}
+[68.375117] (-) TimerEvent: {}
+[68.384683] (diffbot_description) JobSkipped: {'identifier': 'diffbot_description'}
+[68.384834] (realtime_tools) JobSkipped: {'identifier': 'realtime_tools'}
+[68.384877] (ros2_control_test_nodes) JobSkipped: {'identifier': 'ros2_control_test_nodes'}
+[68.385205] (rrbot_description) JobSkipped: {'identifier': 'rrbot_description'}
+[68.385372] (hardware_interface) JobSkipped: {'identifier': 'hardware_interface'}
+[68.385411] (controller_interface) JobSkipped: {'identifier': 'controller_interface'}
+[68.386640] (ros2_control_demo_hardware) JobSkipped: {'identifier': 'ros2_control_demo_hardware'}
+[68.386686] (transmission_interface) JobSkipped: {'identifier': 'transmission_interface'}
+[68.386722] (controller_manager) JobSkipped: {'identifier': 'controller_manager'}
+[68.386757] (diff_drive_controller) JobSkipped: {'identifier': 'diff_drive_controller'}
+[68.386791] (force_torque_sensor_broadcaster) JobSkipped: {'identifier': 'force_torque_sensor_broadcaster'}
+[68.386826] (forward_command_controller) JobSkipped: {'identifier': 'forward_command_controller'}
+[68.386861] (gripper_controllers) JobSkipped: {'identifier': 'gripper_controllers'}
+[68.386896] (imu_sensor_broadcaster) JobSkipped: {'identifier': 'imu_sensor_broadcaster'}
+[68.386928] (joint_state_broadcaster) JobSkipped: {'identifier': 'joint_state_broadcaster'}
+[68.386961] (joint_trajectory_controller) JobSkipped: {'identifier': 'joint_trajectory_controller'}
+[68.386996] (ros2controlcli) JobSkipped: {'identifier': 'ros2controlcli'}
+[68.387029] (effort_controllers) JobSkipped: {'identifier': 'effort_controllers'}
+[68.387120] (joint_state_controller) JobSkipped: {'identifier': 'joint_state_controller'}
+[68.387169] (position_controllers) JobSkipped: {'identifier': 'position_controllers'}
+[68.387261] (ros2_control) JobSkipped: {'identifier': 'ros2_control'}
+[68.387299] (ros2_control_demo_bringup) JobSkipped: {'identifier': 'ros2_control_demo_bringup'}
+[68.387333] (velocity_controllers) JobSkipped: {'identifier': 'velocity_controllers'}
+[68.387364] (ros2_control_demos) JobSkipped: {'identifier': 'ros2_control_demos'}
+[68.387395] (ros2_controllers) JobSkipped: {'identifier': 'ros2_controllers'}
+[68.387430] (-) EventReactorShutdown: {}

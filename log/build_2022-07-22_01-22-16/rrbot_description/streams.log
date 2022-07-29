@@ -1,0 +1,59 @@
+[0.029s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description
+[0.209s] -- The C compiler identification is GNU 9.4.0
+[0.348s] -- The CXX compiler identification is GNU 9.4.0
+[0.359s] -- Check for working C compiler: /usr/bin/cc
+[0.539s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.541s] -- Detecting C compiler ABI info
+[0.715s] -- Detecting C compiler ABI info - done
+[0.743s] -- Detecting C compile features
+[0.744s] -- Detecting C compile features - done
+[0.754s] -- Check for working CXX compiler: /usr/bin/c++
+[0.967s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.970s] -- Detecting CXX compiler ABI info
+[1.184s] -- Detecting CXX compiler ABI info - done
+[1.216s] -- Detecting CXX compile features
+[1.218s] -- Detecting CXX compile features - done
+[1.223s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.298s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.299s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.844s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.100s] -- Configuring done
+[2.121s] -- Generating done
+[2.128s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description
+[2.146s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description
+[2.154s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description -- -j2 -l2
+[2.330s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description -- -j2 -l2
+[2.406s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description
+[2.453s] -- Install configuration: ""
+[2.455s] -- Execute custom install script
+[2.464s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz
+[2.547s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro
+[2.620s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro
+[2.672s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+[2.734s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py
+[2.797s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro
+[2.839s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_multi_interface.ros2_control.xacro
+[2.919s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_position_only.ros2_control.xacro
+[2.972s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+[3.033s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro
+[3.095s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro
+[3.134s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_multi_interface.urdf.xacro
+[3.190s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_position_only.urdf.xacro
+[3.225s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_sensor.urdf.xacro
+[3.257s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv
+[3.285s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+[3.312s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+[3.337s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+[3.358s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+[3.385s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/path.sh
+[3.412s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv
+[3.434s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.bash
+[3.456s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.sh
+[3.481s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh
+[3.504s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv
+[3.526s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/package.dsv
+[3.552s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+[3.574s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+[3.604s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+[3.657s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/package.xml
+[3.735s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description

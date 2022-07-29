@@ -1,0 +1,4 @@
+make[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp'
+make[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:117: rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:468: CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

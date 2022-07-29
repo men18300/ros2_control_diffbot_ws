@@ -1,0 +1,67 @@
+[0.156s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface -- -j2 -l2
+[0.402s] [ 17%] Built target hardware_interface
+[0.480s] [ 26%] Built target gmock
+[0.570s] [ 32%] Built target gmock_main
+[0.692s] [ 44%] Built target test_components
+[0.923s] [ 58%] Built target test_hardware_components
+[1.081s] [ 64%] Built target test_generic_system
+[1.220s] [ 70%] Built target test_macros
+[1.321s] [ 76%] Built target test_resource_manager
+[1.454s] [ 82%] Built target fake_components
+[1.542s] [ 88%] Built target test_component_interfaces
+[1.693s] [ 94%] Built target test_joint_handle
+[1.863s] [100%] Built target test_component_parser
+[1.917s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface -- -j2 -l2
+[2.172s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface
+[2.220s] -- Install configuration: ""
+[2.224s] -- Execute custom install script
+[2.231s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface//fake_components_plugin_description.xml
+[2.237s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[2.239s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[2.242s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[2.245s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[2.247s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/base_interface.hpp
+[2.251s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[2.254s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[2.255s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[2.256s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[2.258s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[2.260s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[2.261s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[2.263s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[2.268s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[2.270s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[2.272s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[2.274s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[2.277s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[2.279s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_status_values.hpp
+[2.281s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[2.283s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[2.288s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib/libfake_components.so
+[2.290s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib/libhardware_interface.so
+[2.293s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib/libtest_components.so
+[2.296s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+[2.304s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[2.316s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[2.345s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[2.345s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[2.345s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[2.348s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[2.354s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[2.355s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[2.355s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[2.358s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[2.363s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[2.371s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[2.373s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[2.376s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[2.378s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[2.408s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[2.412s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[2.414s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.416s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.418s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.419s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[2.420s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[2.422s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/package.xml
+[2.444s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/hardware_interface

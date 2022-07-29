@@ -1,0 +1,37 @@
+[2.077s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/install.log --single-version-externally-managed
+[2.674s] running egg_info
+[2.675s] creating ../../../../build/package_python/package_python.egg-info
+[2.676s] writing ../../../../build/package_python/package_python.egg-info/PKG-INFO
+[2.677s] writing dependency_links to ../../../../build/package_python/package_python.egg-info/dependency_links.txt
+[2.678s] writing entry points to ../../../../build/package_python/package_python.egg-info/entry_points.txt
+[2.679s] writing requirements to ../../../../build/package_python/package_python.egg-info/requires.txt
+[2.679s] writing top-level names to ../../../../build/package_python/package_python.egg-info/top_level.txt
+[2.683s] writing manifest file '../../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[2.790s] reading manifest file '../../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[2.791s] writing manifest file '../../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[2.791s] running build
+[2.791s] running build_py
+[2.792s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build
+[2.792s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib
+[2.792s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib/package_python
+[2.792s] copying package_python/nodo_py.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib/package_python
+[2.792s] copying package_python/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib/package_python
+[2.793s] running install
+[2.795s] running install_lib
+[2.805s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python
+[2.806s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib/package_python/nodo_py.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python
+[2.806s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib/package_python/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python
+[2.807s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python/nodo_py.py to nodo_py.cpython-38.pyc
+[2.809s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python/__init__.py to __init__.cpython-38.pyc
+[2.810s] running install_data
+[2.813s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/share/ament_index
+[2.813s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/share/ament_index/resource_index
+[2.813s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/share/ament_index/resource_index/packages
+[2.814s] copying resource/package_python -> /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/share/ament_index/resource_index/packages
+[2.814s] copying package.xml -> /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/share/package_python
+[2.815s] running install_egg_info
+[2.822s] Copying ../../../../build/package_python/package_python.egg-info to /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python-0.0.0-py3.8.egg-info
+[2.822s] running install_scripts
+[2.869s] Installing nodo_py script to /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/package_python
+[2.871s] writing list of installed files to '/home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/install.log'
+[3.010s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/install.log --single-version-externally-managed

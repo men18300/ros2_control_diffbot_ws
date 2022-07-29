@@ -1,0 +1,386 @@
+[0.045s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs
+[0.098s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.173s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.723s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.747s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.184s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.208s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.437s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.857s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.292s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.294s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.364s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.367s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.367s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.475s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.480s] -- Added test 'lint_cmake' to check CMake code style
+[2.484s] -- Added test 'xmllint' to check XML markup files
+[2.504s] -- Configuring done
+[2.696s] -- Generating done
+[2.716s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs
+[2.735s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs
+[2.736s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs -- -j2 -l2
+[2.939s] [ 12%] Built target controller_manager_msgs__rosidl_generator_c
+[2.958s] [ 12%] Built target controller_manager_msgs__cpp
+[3.016s] [ 24%] Built target controller_manager_msgs__rosidl_typesupport_c
+[3.082s] [ 36%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[3.107s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.187s] [ 48%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[3.194s] [ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.339s] [ 48%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.965s] [ 60%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[4.032s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.692s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[11.393s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c[0m
+[11.611s] [ 63%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[11.712s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp.o[0m
+[13.710s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp.o[0m
+[14.188s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_interface__type_support_c.cpp.o[0m
+[15.748s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_start_controller__type_support.cpp.o[0m
+[16.811s] [ 67%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_controller__type_support_c.cpp.o[0m
+[17.579s] [ 67%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp.o[0m
+[18.976s] [ 68%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_start_controller__type_support_c.cpp.o[0m
+[19.843s] [ 69%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp.o[0m
+[20.645s] [ 70%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controllers__type_support_c.cpp.o[0m
+[21.363s] [ 71%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp.o[0m
+[22.545s] [ 72%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controller_types__type_support_c.cpp.o[0m
+[23.223s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_configure_controller__type_support.cpp.o[0m
+[24.773s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support_c.cpp.o[0m
+[24.867s] [ 74%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_controller__type_support.cpp.o[0m
+[26.538s] [ 74%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_start_controller__type_support.cpp.o[0m
+[26.911s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_configure_controller__type_support_c.cpp.o[0m
+[28.359s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp.o[0m
+[28.980s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_controller__type_support_c.cpp.o[0m
+[29.867s] [ 78%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp.o[0m
+[30.884s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_start_controller__type_support_c.cpp.o[0m
+[31.951s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp.o[0m
+[32.719s] [ 81%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support_c.cpp.o[0m
+[33.451s] [ 82%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[33.942s] [ 82%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[34.475s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o[0m
+[35.963s] [ 83%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/unload_controller__type_support_c.cpp.o[0m
+[37.245s] [ 84%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[37.526s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[37.555s] [35m[1mScanning dependencies of target controller_manager_msgs[0m
+[37.587s] [ 84%] Built target controller_manager_msgs
+[37.623s] [35m[1mScanning dependencies of target controller_manager_msgs__py[0m
+[37.651s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[45.345s] [ 85%] Built target controller_manager_msgs__py
+[45.385s] [35m[1mScanning dependencies of target controller_manager_msgs__python[0m
+[45.637s] [ 86%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_state_s.c.o[0m
+[45.983s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_interface_s.c.o[0m
+[46.280s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_configure_controller_s.c.o[0m
+[46.590s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_configure_start_controller_s.c.o[0m
+[46.887s] [ 89%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controllers_s.c.o[0m
+[47.156s] [ 90%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controller_types_s.c.o[0m
+[47.525s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_interfaces_s.c.o[0m
+[47.790s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_configure_controller_s.c.o[0m
+[48.049s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_controller_s.c.o[0m
+[48.310s] [ 93%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_start_controller_s.c.o[0m
+[48.578s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_reload_controller_libraries_s.c.o[0m
+[48.843s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c.o[0m
+[49.119s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_unload_controller_s.c.o[0m
+[49.394s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/libcontroller_manager_msgs__python.so[0m
+[49.569s] [ 96%] Built target controller_manager_msgs__python
+[49.608s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_c__pyext[0m
+[49.692s] [ 97%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[50.220s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[50.338s] [ 97%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[50.366s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[50.425s] [ 98%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[50.866s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[50.971s] [ 99%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[50.998s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[51.060s] [100%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[51.544s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[51.773s] [100%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[51.814s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs -- -j2 -l2
+[52.753s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs
+[52.797s] -- Install configuration: ""
+[52.803s] -- Execute custom install script
+[52.804s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[52.831s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.h
+[52.880s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__functions.h
+[52.907s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.h
+[52.935s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[52.963s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[52.996s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[53.032s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[53.064s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_interface.h
+[53.097s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[53.128s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_controller.h
+[53.185s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_start_controller.h
+[53.241s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[53.274s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[53.308s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[53.344s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__functions.h
+[53.372s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__struct.h
+[53.403s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__type_support.h
+[53.435s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[53.471s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[53.505s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[53.532s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[53.556s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[53.583s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[53.608s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[53.642s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[53.673s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[53.695s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__functions.h
+[53.727s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__struct.h
+[53.768s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__type_support.h
+[53.821s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__functions.h
+[53.858s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.h
+[53.890s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[53.935s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__functions.h
+[53.982s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__struct.h
+[54.027s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__type_support.h
+[54.067s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[54.101s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[54.124s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[54.152s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[54.176s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[54.198s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[54.222s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[54.247s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[54.273s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[54.298s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.h
+[54.324s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.h
+[54.350s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_interfaces.h
+[54.376s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_configure_controller.h
+[54.409s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.h
+[54.446s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_start_controller.h
+[54.471s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.h
+[54.497s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.h
+[54.535s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.h
+[54.566s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[54.590s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[54.619s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[54.645s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[54.673s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[54.695s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[54.722s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_fastrtps_c.h
+[54.758s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[54.794s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[54.835s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[54.871s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_fastrtps_c.h
+[54.907s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[54.942s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_fastrtps_c.h
+[54.976s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[55.011s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[55.047s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[55.082s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[55.117s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[55.155s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[55.187s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[55.213s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[55.244s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[55.279s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[55.314s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[55.351s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[55.386s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[55.411s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[55.439s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[55.465s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[55.497s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[55.523s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[55.546s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[55.577s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[55.603s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[55.628s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[55.665s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[55.690s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_introspection_c.h
+[55.720s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[55.744s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[55.772s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[55.794s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_introspection_c.h
+[55.820s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[55.847s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_introspection_c.h
+[55.875s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[55.905s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[55.928s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[55.953s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.hpp
+[55.985s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[56.012s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[56.035s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[56.060s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[56.085s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[56.112s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[56.136s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_interface.hpp
+[56.165s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_controller.hpp
+[56.189s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_start_controller.hpp
+[56.213s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[56.242s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[56.265s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[56.292s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__builder.hpp
+[56.316s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__struct.hpp
+[56.339s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__traits.hpp
+[56.363s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[56.389s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[56.414s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[56.440s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[56.466s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[56.489s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[56.511s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[56.538s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[56.561s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[56.588s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__builder.hpp
+[56.613s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__struct.hpp
+[56.637s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__traits.hpp
+[56.660s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[56.686s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[56.711s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[56.737s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__builder.hpp
+[56.765s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__struct.hpp
+[56.791s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__traits.hpp
+[56.812s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[56.840s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[56.875s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[56.897s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[56.925s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[56.955s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[56.977s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[57.002s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[57.030s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[57.063s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.hpp
+[57.086s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.hpp
+[57.108s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[57.139s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_configure_controller.hpp
+[57.163s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.hpp
+[57.187s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_start_controller.hpp
+[57.217s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[57.246s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.hpp
+[57.275s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.hpp
+[57.301s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[57.328s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[57.356s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[57.380s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_introspection_cpp.hpp
+[57.407s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[57.450s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[57.483s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[57.511s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[57.536s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[57.562s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_introspection_cpp.hpp
+[57.597s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[57.625s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[57.647s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[57.672s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[57.705s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[57.740s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/__init__.py
+[57.767s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/__init__.py
+[57.794s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_controller_state.py
+[57.821s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_hardware_interface.py
+[57.848s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/__init__.py
+[57.873s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_configure_controller.py
+[57.902s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_configure_start_controller.py
+[57.928s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controller_types.py
+[57.953s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controllers.py
+[57.976s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[57.997s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_configure_controller.py
+[58.019s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_controller.py
+[58.040s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_start_controller.py
+[58.063s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[58.085s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_switch_controller.py
+[58.113s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_unload_controller.py
+[58.140s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[58.165s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[58.188s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[58.212s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__python.so
+[58.244s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[58.272s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[58.295s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[58.321s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController.idl
+[58.349s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[58.372s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[58.395s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[58.426s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController.idl
+[58.452s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[58.475s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController.idl
+[58.499s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[58.524s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[58.547s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[58.574s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[58.604s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[58.636s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[58.676s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Request.msg
+[58.700s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Response.msg
+[58.734s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController.srv
+[58.766s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController_Request.msg
+[58.792s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController_Response.msg
+[58.822s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[58.849s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Request.msg
+[58.877s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Response.msg
+[58.915s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[58.947s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Request.msg
+[58.978s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Response.msg
+[59.012s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[59.046s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Request.msg
+[59.071s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Response.msg
+[59.095s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController.srv
+[59.134s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController_Request.msg
+[59.179s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController_Response.msg
+[59.223s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[59.259s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Request.msg
+[59.290s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Response.msg
+[59.338s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController.srv
+[59.377s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController_Request.msg
+[59.415s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController_Response.msg
+[59.483s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[59.537s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Request.msg
+[59.578s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Response.msg
+[59.623s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[59.661s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Request.msg
+[59.703s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Response.msg
+[59.730s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[59.756s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Request.msg
+[59.781s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Response.msg
+[59.804s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[59.832s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[59.861s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[59.883s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[59.911s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[59.942s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[59.970s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[60.001s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[60.045s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[60.089s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[60.133s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[60.180s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[60.227s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[60.264s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.304s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[60.347s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[60.385s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.424s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[60.461s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[60.500s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[60.537s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[60.573s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[60.599s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[60.601s] -- Set runtime path of "/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so" to ""
+[60.602s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[60.604s] -- Set runtime path of "/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so" to ""
+[60.605s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[60.606s] -- Set runtime path of "/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so" to ""
+[60.607s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[60.610s] -- Set runtime path of "/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[60.611s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[60.613s] -- Set runtime path of "/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so" to ""
+[60.740s] Compiling '/home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/__init__.py'...
+[60.763s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport.cmake
+[60.769s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport-noconfig.cmake
+[60.773s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[60.777s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[60.780s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[60.785s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[60.787s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cppExport.cmake
+[60.789s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[60.792s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[60.794s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[60.796s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[60.807s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/controller_manager_msgs

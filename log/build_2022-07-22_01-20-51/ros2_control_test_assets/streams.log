@@ -1,0 +1,48 @@
+[0.073s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets
+[0.713s] -- The C compiler identification is GNU 9.4.0
+[1.140s] -- The CXX compiler identification is GNU 9.4.0
+[1.173s] -- Check for working C compiler: /usr/bin/cc
+[1.373s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.380s] -- Detecting C compiler ABI info
+[1.574s] -- Detecting C compiler ABI info - done
+[1.609s] -- Detecting C compile features
+[1.610s] -- Detecting C compile features - done
+[1.624s] -- Check for working CXX compiler: /usr/bin/c++
+[1.888s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.891s] -- Detecting CXX compiler ABI info
+[2.110s] -- Detecting CXX compiler ABI info - done
+[2.144s] -- Detecting CXX compile features
+[2.147s] -- Detecting CXX compile features - done
+[2.178s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.271s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.943s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.199s] -- Configuring done
+[3.209s] -- Generating done
+[3.214s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets
+[3.234s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets
+[3.237s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets -- -j2 -l2
+[3.361s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets -- -j2 -l2
+[3.462s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets
+[3.510s] -- Install configuration: ""
+[3.511s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include
+[3.511s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets
+[3.511s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[3.512s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[3.512s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[3.513s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[3.514s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[3.515s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[3.516s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[3.516s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[3.518s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[3.519s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[3.520s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[3.520s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[3.521s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[3.522s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[3.523s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.523s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[3.525s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[3.526s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[3.533s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets

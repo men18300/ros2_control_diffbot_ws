@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+-- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+-- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/realtime_tools
+[35m[1mScanning dependencies of target realtime_tools[0m
+[  5%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[ 11%] [32m[1mLinking CXX static library librealtime_tools.a[0m
+[ 11%] Built target realtime_tools
+[35m[1mScanning dependencies of target gmock[0m
+[ 17%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+make[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:63: gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:384: gmock/CMakeFiles/gmock.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,93 @@
+[0.088s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface
+[0.271s] -- The C compiler identification is GNU 9.4.0
+[0.439s] -- The CXX compiler identification is GNU 9.4.0
+[0.457s] -- Check for working C compiler: /usr/bin/cc
+[0.651s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.653s] -- Detecting C compiler ABI info
+[0.838s] -- Detecting C compiler ABI info - done
+[0.873s] -- Detecting C compile features
+[0.876s] -- Detecting C compile features - done
+[0.882s] -- Check for working CXX compiler: /usr/bin/c++
+[1.101s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.104s] -- Detecting CXX compiler ABI info
+[1.357s] -- Detecting CXX compiler ABI info - done
+[1.388s] -- Detecting CXX compile features
+[1.390s] -- Detecting CXX compile features - done
+[1.395s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.056s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.108s] -- Found hardware_interface: 0.10.1 (/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/share/hardware_interface/cmake)
+[2.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.218s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.472s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.561s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.453s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[4.456s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.677s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.686s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.688s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.822s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.828s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.831s] -- Configured cppcheck include dirs: /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/transmission_interface/include;/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/transmission_interface/hardware_interface
+[4.831s] -- Configured cppcheck exclude dirs and/or files: 
+[4.835s] -- Added test 'lint_cmake' to check CMake code style
+[4.839s] -- Added test 'xmllint' to check XML markup files
+[4.860s] -- Configuring done
+[4.981s] -- Generating done
+[4.987s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface
+[5.019s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface
+[5.021s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface -- -j2 -l2
+[5.139s] [35m[1mScanning dependencies of target gmock[0m
+[5.201s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[15.656s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[21.617s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[21.766s] [ 27%] Built target gmock
+[21.790s] [35m[1mScanning dependencies of target gmock_main[0m
+[21.833s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[24.533s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[24.610s] [ 45%] Built target gmock_main
+[24.635s] [35m[1mScanning dependencies of target test_four_bar_linkage_transmission[0m
+[24.699s] [ 54%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[30.411s] [ 63%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[31.202s] [ 63%] Built target test_four_bar_linkage_transmission
+[31.228s] [35m[1mScanning dependencies of target test_differential_transmission[0m
+[31.283s] [ 72%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[37.831s] [ 81%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[38.619s] [ 81%] Built target test_differential_transmission
+[38.674s] [35m[1mScanning dependencies of target test_simple_transmission[0m
+[38.788s] [ 90%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[45.213s] [100%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[45.948s] [100%] Built target test_simple_transmission
+[45.986s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface -- -j2 -l2
+[46.101s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface
+[46.133s] -- Install configuration: ""
+[46.136s] -- Execute custom install script
+[46.140s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[46.173s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[46.205s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[46.235s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[46.262s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[46.287s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[46.313s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[46.339s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+[46.367s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[46.391s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[46.419s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[46.450s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[46.475s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[46.503s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[46.529s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[46.554s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[46.583s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[46.610s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[46.637s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[46.661s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[46.689s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[46.728s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.760s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.789s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[46.812s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[46.845s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/transmission_interface/share/transmission_interface/package.xml
+[46.888s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/transmission_interface

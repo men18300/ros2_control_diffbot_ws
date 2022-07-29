@@ -1,0 +1,24 @@
+[0.101s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets -- -j2 -l2
+[0.340s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets -- -j2 -l2
+[0.594s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets
+[0.764s] -- Install configuration: ""
+[0.769s] -- Execute custom install script
+[0.773s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[0.776s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[0.777s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[0.778s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[0.780s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[0.781s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[0.785s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[0.787s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[0.788s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[0.790s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[0.802s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[0.803s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[0.803s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[0.918s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[0.920s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.921s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[0.922s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[0.923s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[0.933s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_assets

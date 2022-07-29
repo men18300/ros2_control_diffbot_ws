@@ -1,0 +1,1 @@
+/home/diego/Workspaces/ros2_control_diffbot_ws/build/gripper_controllers/ament_cmake_core/gripper_controllersConfig-version.cmake

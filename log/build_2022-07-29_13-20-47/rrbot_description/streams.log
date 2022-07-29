@@ -1,0 +1,36 @@
+[0.084s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description -- -j2 -l2
+[0.245s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description -- -j2 -l2
+[0.327s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description
+[0.368s] -- Install configuration: ""
+[0.369s] -- Execute custom install script
+[0.369s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz
+[0.369s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro
+[0.370s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro
+[0.372s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+[0.374s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py
+[0.376s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro
+[0.378s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_multi_interface.ros2_control.xacro
+[0.379s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_position_only.ros2_control.xacro
+[0.381s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+[0.383s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro
+[0.384s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro
+[0.386s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_multi_interface.urdf.xacro
+[0.388s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_position_only.urdf.xacro
+[0.389s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_sensor.urdf.xacro
+[0.391s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv
+[0.397s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+[0.400s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+[0.401s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+[0.403s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+[0.405s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/path.sh
+[0.406s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv
+[0.408s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.bash
+[0.409s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.sh
+[0.410s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh
+[0.412s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv
+[0.414s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/package.dsv
+[0.448s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+[0.448s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+[0.450s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+[0.450s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/rrbot_description/share/rrbot_description/package.xml
+[0.463s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/rrbot_description
