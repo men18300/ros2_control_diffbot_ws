@@ -1,0 +1,84 @@
+[0.070s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware
+[0.218s] -- The C compiler identification is GNU 9.4.0
+[0.355s] -- The CXX compiler identification is GNU 9.4.0
+[0.366s] -- Check for working C compiler: /usr/bin/cc
+[0.534s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.537s] -- Detecting C compiler ABI info
+[0.718s] -- Detecting C compiler ABI info - done
+[0.752s] -- Detecting C compile features
+[0.753s] -- Detecting C compile features - done
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++
+[0.957s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.960s] -- Detecting CXX compiler ABI info
+[1.445s] -- Detecting CXX compiler ABI info - done
+[1.474s] -- Detecting CXX compile features
+[1.476s] -- Detecting CXX compile features - done
+[1.482s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.542s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.542s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.106s] -- Found hardware_interface: 0.10.1 (/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/share/hardware_interface/cmake)
+[2.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.201s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.402s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.476s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.028s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.240s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.262s] -- Looking for pthread.h
+[4.457s] -- Looking for pthread.h - found
+[4.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.637s] -- Looking for pthread_create in pthreads
+[4.788s] -- Looking for pthread_create in pthreads - not found
+[4.789s] -- Looking for pthread_create in pthread
+[4.996s] -- Looking for pthread_create in pthread - found
+[4.999s] -- Found Threads: TRUE  
+[5.520s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.715s] -- Configuring done
+[5.762s] -- Generating done
+[5.767s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware
+[5.793s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware
+[5.801s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware -- -j2 -l2
+[5.925s] [35m[1mScanning dependencies of target ros2_control_demo_hardware[0m
+[6.255s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/diffbot_system.cpp.o[0m
+[6.286s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_position_only.cpp.o[0m
+[22.129s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_multi_interface.cpp.o[0m
+[32.492s] [ 80%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_with_sensor.cpp.o[0m
+[42.368s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_hardware.so[0m
+[43.343s] [100%] Built target ros2_control_demo_hardware
+[43.388s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware -- -j2 -l2
+[43.495s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware
+[43.524s] -- Install configuration: ""
+[43.525s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/ros2_control_demo_hardware.xml
+[43.525s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/lib/libros2_control_demo_hardware.so
+[43.532s] -- Set runtime path of "/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/lib/libros2_control_demo_hardware.so" to ""
+[43.532s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/include
+[43.533s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware
+[43.533s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp
+[43.533s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp
+[43.533s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp
+[43.534s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp
+[43.534s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/visibility_control.h
+[43.534s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/library_path.sh
+[43.534s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/library_path.dsv
+[43.535s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_hardware
+[43.535s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_hardware
+[43.535s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/ament_prefix_path.sh
+[43.536s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/ament_prefix_path.dsv
+[43.536s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/path.sh
+[43.536s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/path.dsv
+[43.537s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.bash
+[43.538s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.sh
+[43.538s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.zsh
+[43.539s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.dsv
+[43.539s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.dsv
+[43.540s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ament_index/resource_index/packages/ros2_control_demo_hardware
+[43.540s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_hardware
+[43.542s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.542s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[43.543s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.543s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ros2_control_demo_hardwareConfig.cmake
+[43.543s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ros2_control_demo_hardwareConfig-version.cmake
+[43.544s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.xml
+[43.558s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_demo_hardware

@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'nodo_py = package_python.nodo_py:main'
+            'nodo_py = package_python.nodo_py:main',
+            'py_pub_spiral = package_python.py_pub_spiral:main',
+            'py_pub_odometry = package_python.py_pub_odometry:main',
         ],
     },
 )

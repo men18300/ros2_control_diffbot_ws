@@ -1,0 +1,42 @@
+[2.378s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_test_nodes': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_control_test_nodes build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes --record /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/install.log --single-version-externally-managed
+[3.028s] running egg_info
+[3.030s] creating ../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info
+[3.031s] writing ../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/PKG-INFO
+[3.032s] writing dependency_links to ../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/dependency_links.txt
+[3.033s] writing entry points to ../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/entry_points.txt
+[3.035s] writing requirements to ../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/requires.txt
+[3.035s] writing top-level names to ../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/top_level.txt
+[3.039s] writing manifest file '../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[3.154s] reading manifest file '../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[3.157s] writing manifest file '../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[3.158s] running build
+[3.158s] running build_py
+[3.159s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build
+[3.160s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib
+[3.160s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[3.161s] copying ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[3.163s] copying ros2_control_test_nodes/publisher_joint_trajectory_position_controller.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[3.164s] copying ros2_control_test_nodes/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[3.167s] running install
+[3.171s] running install_lib
+[3.175s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[3.176s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[3.177s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_joint_trajectory_position_controller.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[3.178s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[3.180s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-38.pyc
+[3.185s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_joint_trajectory_position_controller.py to publisher_joint_trajectory_position_controller.cpython-38.pyc
+[3.189s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/__init__.py to __init__.cpython-38.pyc
+[3.191s] running install_data
+[3.193s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/share/ament_index
+[3.193s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/share/ament_index/resource_index
+[3.194s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[3.195s] copying resource/ros2_control_test_nodes -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[3.197s] copying package.xml -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/share/ros2_control_test_nodes
+[3.198s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/share/ros2_control_test_nodes/configs
+[3.198s] running install_egg_info
+[3.207s] Copying ../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info
+[3.209s] running install_scripts
+[3.250s] Installing publisher_forward_position_controller script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[3.251s] Installing publisher_joint_trajectory_position_controller script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[3.253s] writing list of installed files to '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/install.log'
+[3.334s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_control_test_nodes build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_test_nodes --record /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/ros2_control_test_nodes/install.log --single-version-externally-managed

@@ -1,0 +1,5 @@
+  File "/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python/py_pub_spiral.py", line 38
+    self.i += float(data)f
+                         ^
+SyntaxError: invalid syntax
+

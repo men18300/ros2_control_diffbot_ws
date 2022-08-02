@@ -1,0 +1,46 @@
+[2.003s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/install.log --single-version-externally-managed
+[2.805s] running egg_info
+[2.809s] creating ../../../build/package_python/package_python.egg-info
+[2.811s] writing ../../../build/package_python/package_python.egg-info/PKG-INFO
+[2.812s] writing dependency_links to ../../../build/package_python/package_python.egg-info/dependency_links.txt
+[2.813s] writing entry points to ../../../build/package_python/package_python.egg-info/entry_points.txt
+[2.815s] writing requirements to ../../../build/package_python/package_python.egg-info/requires.txt
+[2.816s] writing top-level names to ../../../build/package_python/package_python.egg-info/top_level.txt
+[2.827s] writing manifest file '../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[2.947s] reading manifest file '../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[2.950s] writing manifest file '../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[2.951s] running build
+[2.952s] running build_py
+[2.953s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build
+[2.954s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib
+[2.954s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+[2.955s] copying package_python/nodo_py.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+[2.956s] copying package_python/py_pub_spiral.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+[2.958s] copying package_python/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+[2.959s] running install
+[2.962s] running install_lib
+[2.964s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+[2.965s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python/nodo_py.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+[2.966s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python/py_pub_spiral.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+[2.967s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+[2.969s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python/nodo_py.py to nodo_py.cpython-38.pyc
+[2.973s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python/py_pub_spiral.py to py_pub_spiral.cpython-38.pyc
+[2.975s]   File "/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python/py_pub_spiral.py", line 38
+[2.975s]     self.i += float(data)f
+[2.976s]                          ^
+[2.976s] SyntaxError: invalid syntax
+[2.976s] 
+[2.977s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python/__init__.py to __init__.cpython-38.pyc
+[2.979s] running install_data
+[2.981s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index
+[2.982s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index/resource_index
+[2.983s] creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index/resource_index/packages
+[2.983s] copying resource/package_python -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index/resource_index/packages
+[2.984s] copying package.xml -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/package_python
+[2.985s] running install_egg_info
+[2.989s] Copying ../../../build/package_python/package_python.egg-info to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python-0.0.0-py3.8.egg-info
+[2.992s] running install_scripts
+[3.046s] Installing nodo_py script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/package_python
+[3.047s] Installing py_pub_spiral script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/package_python
+[3.048s] writing list of installed files to '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/install.log'
+[3.125s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/install.log --single-version-externally-managed

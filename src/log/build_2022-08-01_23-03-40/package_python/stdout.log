@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/package_python/package_python.egg-info
+writing ../../../build/package_python/package_python.egg-info/PKG-INFO
+writing dependency_links to ../../../build/package_python/package_python.egg-info/dependency_links.txt
+writing entry points to ../../../build/package_python/package_python.egg-info/entry_points.txt
+writing requirements to ../../../build/package_python/package_python.egg-info/requires.txt
+writing top-level names to ../../../build/package_python/package_python.egg-info/top_level.txt
+writing manifest file '../../../build/package_python/package_python.egg-info/SOURCES.txt'
+reading manifest file '../../../build/package_python/package_python.egg-info/SOURCES.txt'
+writing manifest file '../../../build/package_python/package_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build
+creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib
+creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+copying package_python/nodo_py.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+copying package_python/py_pub_spiral.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+copying package_python/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python
+running install
+running install_lib
+creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python/nodo_py.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python/py_pub_spiral.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/build/lib/package_python/__init__.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python
+byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python/nodo_py.py to nodo_py.cpython-38.pyc
+byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python/py_pub_spiral.py to py_pub_spiral.cpython-38.pyc
+byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index
+creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index/resource_index
+creating /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index/resource_index/packages
+copying resource/package_python -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/ament_index/resource_index/packages
+copying package.xml -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/share/package_python
+running install_egg_info
+Copying ../../../build/package_python/package_python.egg-info to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/python3.8/site-packages/package_python-0.0.0-py3.8.egg-info
+running install_scripts
+Installing nodo_py script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/package_python
+Installing py_pub_spiral script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/package_python/lib/package_python
+writing list of installed files to '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/package_python/install.log'

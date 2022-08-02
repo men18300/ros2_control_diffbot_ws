@@ -3,10 +3,16 @@
 <package format="3">
   <name>package_python</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Beginner client libraries tutorials practice package</description>
   <maintainer email="nat20@todo.todo">nat20</maintainer>
-  <license>TODO: License declaration</license>
+	<license>Apache License 2.0</license>
+	
+  <buildtool_depend>ament_python</buildtool_depend>
 
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

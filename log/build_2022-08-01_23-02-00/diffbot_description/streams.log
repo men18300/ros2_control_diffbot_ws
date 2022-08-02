@@ -1,0 +1,35 @@
+[0.681s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description -- -j2 -l2
+[1.591s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.686s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.389s] -- Configuring done
+[2.412s] -- Generating done
+[2.415s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description
+[2.466s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description -- -j2 -l2
+[2.548s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description
+[2.569s] -- Install configuration: ""
+[2.571s] -- Execute custom install script
+[2.573s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[2.573s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[2.574s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[2.574s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[2.575s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[2.576s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[2.576s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/urdf/diffboturdforiginal.txt
+[2.577s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/meshes/Chasis.stl
+[2.605s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[2.605s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[2.605s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[2.606s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[2.607s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/path.sh
+[2.607s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[2.607s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.bash
+[2.608s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.sh
+[2.609s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[2.609s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[2.609s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/package.dsv
+[2.629s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[2.630s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[2.630s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[2.631s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/package.xml
+[2.640s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2controlcli:/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes:/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python:/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description

@@ -1,0 +1,118 @@
+[0.055s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface
+[0.233s] -- The C compiler identification is GNU 9.4.0
+[0.383s] -- The CXX compiler identification is GNU 9.4.0
+[0.394s] -- Check for working C compiler: /usr/bin/cc
+[0.572s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.575s] -- Detecting C compiler ABI info
+[0.752s] -- Detecting C compiler ABI info - done
+[0.780s] -- Detecting C compile features
+[0.782s] -- Detecting C compile features - done
+[0.789s] -- Check for working CXX compiler: /usr/bin/c++
+[0.987s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.991s] -- Detecting CXX compiler ABI info
+[1.450s] -- Detecting CXX compiler ABI info - done
+[1.480s] -- Detecting CXX compile features
+[1.482s] -- Detecting CXX compile features - done
+[1.488s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.551s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.148s] -- Found hardware_interface: 0.10.1 (/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/share/hardware_interface/cmake)
+[2.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.244s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.441s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.523s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.091s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[4.254s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.275s] -- Looking for pthread.h
+[4.459s] -- Looking for pthread.h - found
+[4.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.653s] -- Looking for pthread_create in pthreads
+[4.813s] -- Looking for pthread_create in pthreads - not found
+[4.814s] -- Looking for pthread_create in pthread
+[5.006s] -- Looking for pthread_create in pthread - found
+[5.010s] -- Found Threads: TRUE  
+[5.655s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[5.659s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.670s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.103s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[6.113s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[6.116s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.240s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.245s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.246s] -- Configured cppcheck include dirs: /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/controller_interface/include
+[6.247s] -- Configured cppcheck exclude dirs and/or files: 
+[6.248s] -- Added test 'lint_cmake' to check CMake code style
+[6.250s] -- Added test 'xmllint' to check XML markup files
+[6.263s] -- Configuring done
+[6.524s] -- Generating done
+[6.540s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface
+[6.602s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface
+[6.607s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface -- -j2 -l2
+[6.816s] [35m[1mScanning dependencies of target gmock[0m
+[6.859s] [35m[1mScanning dependencies of target gmock_main[0m
+[6.936s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.952s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[12.372s] [ 20%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[12.602s] [ 20%] Built target gmock_main
+[24.316s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[30.989s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[31.742s] [ 33%] Built target gmock
+[31.783s] [35m[1mScanning dependencies of target controller_interface[0m
+[32.481s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[38.441s] [ 46%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[38.997s] [ 46%] Built target controller_interface
+[39.066s] [35m[1mScanning dependencies of target test_force_torque_sensor[0m
+[39.247s] [ 53%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[46.181s] [ 60%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[47.473s] [ 60%] Built target test_force_torque_sensor
+[47.505s] [35m[1mScanning dependencies of target test_semantic_component_interface[0m
+[47.562s] [ 66%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[52.422s] [ 73%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[53.576s] [ 73%] Built target test_semantic_component_interface
+[53.611s] [35m[1mScanning dependencies of target test_imu_sensor[0m
+[53.723s] [ 80%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[60.147s] [ 86%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[61.059s] [ 86%] Built target test_imu_sensor
+[61.096s] [35m[1mScanning dependencies of target test_controller_with_options[0m
+[61.215s] [ 93%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[71.625s] [100%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[72.778s] [100%] Built target test_controller_with_options
+[72.827s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface -- -j2 -l2
+[72.958s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface
+[72.992s] -- Install configuration: ""
+[72.993s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include
+[72.994s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/controller_interface
+[72.995s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/controller_interface/controller_state_names.hpp
+[72.996s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/controller_interface/controller_interface.hpp
+[72.998s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/controller_interface/helpers.hpp
+[72.999s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/controller_interface/visibility_control.h
+[73.000s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/semantic_components
+[73.002s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[73.003s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[73.005s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[73.008s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/lib/libcontroller_interface.so
+[73.010s] -- Set runtime path of "/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/lib/libcontroller_interface.so" to ""
+[73.011s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/environment/library_path.sh
+[73.012s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[73.013s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[73.014s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[73.015s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[73.017s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[73.018s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/environment/path.sh
+[73.019s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/environment/path.dsv
+[73.020s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/local_setup.bash
+[73.023s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/local_setup.sh
+[73.024s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/local_setup.zsh
+[73.025s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/local_setup.dsv
+[73.026s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/package.dsv
+[73.028s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[73.031s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.033s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.034s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[73.036s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[73.037s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[73.039s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/controller_interface/share/controller_interface/package.xml
+[73.059s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/hardware_interface/lib:/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/controller_interface

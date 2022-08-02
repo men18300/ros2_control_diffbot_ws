@@ -10,6 +10,7 @@ setup.py
 ../../../../build/package_python/package_python.egg-info/zip-safe
 package_python/__init__.py
 package_python/nodo_py.py
+package_python/py_pub_spiral.py
 resource/package_python
 test/test_copyright.py
 test/test_flake8.py

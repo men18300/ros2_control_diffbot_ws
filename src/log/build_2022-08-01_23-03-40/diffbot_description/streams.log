@@ -1,0 +1,55 @@
+[0.071s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description
+[0.493s] -- The C compiler identification is GNU 9.4.0
+[0.636s] -- The CXX compiler identification is GNU 9.4.0
+[0.648s] -- Check for working C compiler: /usr/bin/cc
+[0.818s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.820s] -- Detecting C compiler ABI info
+[0.990s] -- Detecting C compiler ABI info - done
+[1.019s] -- Detecting C compile features
+[1.021s] -- Detecting C compile features - done
+[1.030s] -- Check for working CXX compiler: /usr/bin/c++
+[1.222s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.226s] -- Detecting CXX compiler ABI info
+[1.434s] -- Detecting CXX compiler ABI info - done
+[1.470s] -- Detecting CXX compile features
+[1.472s] -- Detecting CXX compile features - done
+[1.477s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.532s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.533s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.293s] -- Configuring done
+[2.298s] -- Generating done
+[2.301s] -- Build files have been written to: /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description
+[2.310s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_INSTALL_PREFIX=/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description
+[2.317s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description -- -j2 -l2
+[2.412s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description -- -j2 -l2
+[2.477s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description
+[2.503s] -- Install configuration: ""
+[2.504s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/config
+[2.505s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[2.506s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/gazebo
+[2.506s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[2.507s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[2.508s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/ros2_control
+[2.509s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[2.509s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/urdf
+[2.510s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[2.511s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/urdf/diffboturdforiginal.txt
+[2.512s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[2.512s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/meshes
+[2.513s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/meshes/Chasis.stl
+[2.515s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[2.517s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[2.518s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[2.520s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[2.521s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/environment/path.sh
+[2.522s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[2.523s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/local_setup.bash
+[2.525s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/local_setup.sh
+[2.526s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[2.527s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[2.528s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/package.dsv
+[2.531s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[2.532s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[2.533s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[2.535s] -- Installing: /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/diffbot_description/share/diffbot_description/package.xml
+[2.550s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/diffbot_description
