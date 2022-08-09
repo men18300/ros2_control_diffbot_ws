@@ -18,6 +18,7 @@ arduino = serial.Serial(
 arduino.close() 
 arduino.open() 
 
+
 class MinimalSubscriber(Node):
 
     def __init__(self):
@@ -27,21 +28,19 @@ class MinimalSubscriber(Node):
 
     def subscribe_message(self, msg):
         self.get_logger().info('Recieved - Linear Velocity : %f, Angular Velocity : %f' % (msg.linear.x, msg.angular.z))
+        lineal=msg.linear.x
+        angular=msg.angular.z
+        data = {}
+        data["LW"] =lineal
+        data["RW"] =angular
+        data=json.dumps(data)
+        arduino.write(data.encode('ascii'))
+        arduino.flush()
+        time.sleep(0.05)
         
-def calculoVelocidades(msg):
-    data = {}
-    data["LW"] =msg.linear.x
-    data["RW"] =msg.angular.z
-    data=json.dumps(data)
-    arduino.write(data.encode('ascii'))
-    arduino.flush()
-    time.sleep(0.05)
-
-
 def main(args=None):
     rclpy.init(args=args)
     minimal_subscriber = MinimalSubscriber()
-    calculoVelocidades(msg)
     rclpy.spin(minimal_subscriber)
     minimal_subscriber.destroy_node()
     rclpy.shutdown()
