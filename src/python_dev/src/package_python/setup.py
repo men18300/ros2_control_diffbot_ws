@@ -23,6 +23,7 @@ setup(
             'nodo_py = package_python.nodo_py:main',
             'py_pub_spiral = package_python.py_pub_spiral:main',
             'py_pub_odometry = package_python.py_pub_odometry:main',
+            'py_pub_sub_wheels = package_python.py_pub_sub_wheels:main',
         ],
     },
 )

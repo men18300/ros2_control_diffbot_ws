@@ -33,7 +33,7 @@
         <!--box size="${base_width} ${base_length} ${base_height}"/-->
         <mesh filename="package://diffbot_description/meshes/Chasis.stl" />
       </geometry>
-      <material name="blue"/>
+      <material name="white"/>
     </visual>
 
     <inertial>
@@ -116,13 +116,13 @@
         </inertial>
       </link>
 
-    <joint name="${prefix}caster_frontal_wheel_joint" type="fixed">
+    <!--joint name="${prefix}caster_frontal_wheel_joint" type="fixed">
       <parent link="${prefix}base_link"/>
       <child link="${prefix}caster_frontal_wheel"/>
       <origin xyz="${base_width/2 - caster_wheel_radius} 0 ${z_offset}" rpy="0 0 0"/>
     </joint>
 
-    <!-- caster frontal wheel Link -->
+    < caster frontal wheel Link >
     <link name="${prefix}caster_frontal_wheel">
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -147,7 +147,7 @@
           iyy="${caster_wheel_mass * 0.4 * (caster_wheel_radius * caster_wheel_radius)}" iyz="0.0"
           izz="${caster_wheel_mass * 0.4 * (caster_wheel_radius * caster_wheel_radius)}"/>
         </inertial>
-      </link>
+      </link-->
 
     <joint name="${prefix}caster_rear_wheel_joint" type="fixed">
       <parent link="${prefix}base_link"/>

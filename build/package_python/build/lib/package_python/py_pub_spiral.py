@@ -2,7 +2,7 @@ import sys
 import rclpy
 import serial
 import time
-from rclpy.node import Node
+from rclpy.node import Node ##Importamos la clase de Node para crear un nodo
 from geometry_msgs.msg import Twist
 
 ## --- PRUEBA 1: Mandar char ##
@@ -35,14 +35,14 @@ class MinimalPublisher(Node):
         message.angular.z = float(sys.argv[2]) + self.i
         self.get_logger().info('Sending - Linear Velocity : %f, Angular Velocity : %f' % (message.linear.x, message.angular.z))
         self.publisher_.publish(message)
-        self.i += float(data)f
+        self.i += float(data)
 
 def main(args=None):
-    rclpy.init(args=args)
+    rclpy.init(args=args)#Inicializamos la comunicación con ROS
     minimal_publisher = MinimalPublisher()
-    rclpy.spin(minimal_publisher)
+    rclpy.spin(minimal_publisher)##Hace que mi programa no muera, que siga existiendo el nodo, donde basicamente cuando damos CTRL+C se va hacia el shutdown
     minimal_publisher.destroy_node()
-    rclpy.shutdown()
+    rclpy.shutdown()##Quitamos la comunicacion con ROS
 
 
 

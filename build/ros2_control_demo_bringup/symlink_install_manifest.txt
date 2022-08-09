@@ -6,6 +6,7 @@
 /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/config/rrbot_multi_interface_forward_controllers.yaml
 /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/config/rrbot_with_sensor_controllers.yaml
 /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/diffbot_system.launch.py
+/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/diffbot_system_sim.launch.py
 /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/rrbot.launch.py
 /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/rrbot_base.launch.py
 /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/rrbot_system_multi_interface.launch.py

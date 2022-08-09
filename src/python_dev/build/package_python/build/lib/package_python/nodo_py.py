@@ -1,5 +1,7 @@
 import serial
 import time
+import json
+
 ## --- PRUEBA 1: Mandar char ##
 ser = serial.Serial(
     port = '/dev/ttyUSB0',
@@ -13,8 +15,9 @@ ser = serial.Serial(
 ser.close()  
 ser.open()   
 # Reads one byte of information
-data = ser.read(1) 
-print(data)
 
-
-
+incoming = ser.readline().decode("utf-8")
+incomingDic=json.loads(incoming)
+#print (type(incomingDic['temp']))
+print (incoming)
+ser.close()
