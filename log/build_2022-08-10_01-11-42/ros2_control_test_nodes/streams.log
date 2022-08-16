@@ -1,0 +1,25 @@
+[2.996s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes --uninstall --editable --build-directory /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes/build
+[3.849s] running develop
+[4.552s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes --uninstall --editable --build-directory /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes/build
+[4.562s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_test_nodes': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes --record /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed
+[5.514s] running egg_info
+[5.516s] writing ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/PKG-INFO
+[5.517s] writing dependency_links to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/dependency_links.txt
+[5.518s] writing entry points to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/entry_points.txt
+[5.520s] writing requirements to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/requires.txt
+[5.521s] writing top-level names to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/top_level.txt
+[5.698s] reading manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[5.729s] writing manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[5.731s] running build
+[5.731s] running build_py
+[5.734s] running install
+[5.738s] running install_lib
+[5.753s] running install_data
+[5.773s] running install_egg_info
+[5.786s] removing '/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info' (and everything under it)
+[5.786s] Copying ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info to /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info
+[5.799s] running install_scripts
+[5.895s] Installing publisher_forward_position_controller script to /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[5.898s] Installing publisher_joint_trajectory_position_controller script to /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[5.906s] writing list of installed files to '/home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes/install.log'
+[6.085s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/ros2_control_test_nodes --record /home/diego/Workspaces/ros2_control_diffbot_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed

@@ -41,6 +41,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diffbot_description" TYPE DIRECTORY FILES
     "/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/config"
     "/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/gazebo"
+    "/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/gazebo_sim"
     "/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/meshes"
     "/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/ros2_control"
     "/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description/urdf"

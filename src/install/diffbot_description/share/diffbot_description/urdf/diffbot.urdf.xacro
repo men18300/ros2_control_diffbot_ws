@@ -49,7 +49,8 @@
     <joint name="${prefix}left_wheel_joint" type="continuous">
       <parent link="${prefix}base_link"/>
       <child link="${prefix}left_wheel"/>
-      <origin xyz="0.126 -${(base_width/2) + 0.036} 0.18" rpy="0 0 0"/>
+      <!--origin xyz="0.126 -${(base_width/2) + 0.036} 0.18" rpy="0 0 0"/-->
+      <origin xyz="-0.19 -${base_width/2} -${base_height}" rpy="0 0 0"/>
       <axis xyz="0 1 0"/>
       <dynamics damping="0.2"/>
     </joint>
@@ -66,7 +67,8 @@
       <visual>
         <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
         <geometry>
-          <cylinder length="${wheel_len}" radius="${wheel_radius}"/>
+          <!--cylinder length="${wheel_len}" radius="${wheel_radius}"/-->
+          <mesh filename="package://diffbot_description/meshes/Orugas.stl" />
         </geometry>
         <material name="black"/>
       </visual>
@@ -84,7 +86,8 @@
     <joint name="${prefix}right_wheel_joint" type="continuous">
       <parent link="${prefix}base_link"/>
       <child link="${prefix}right_wheel"/>
-      <origin xyz="0.126 ${(base_width/2) +0.036} 0.18" rpy="0 0 0"/>
+      <!--origin xyz="0.126 ${(base_width/2) +0.06} 0.18" rpy="0 0 0"/-->
+      <origin xyz="-0.19 ${base_width/2+0.10} -${base_height}" rpy="0 0 0"/>
       <axis xyz="0 1 0"/>
       <dynamics damping="0.2"/>
     </joint>
@@ -101,7 +104,8 @@
       <visual>
         <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
         <geometry>
-          <cylinder length="${wheel_len}" radius="${wheel_radius}"/>
+          <!--cylinder length="${wheel_len}" radius="${wheel_radius}"/-->
+          <mesh filename="package://diffbot_description/meshes/Orugas.stl" />
         </geometry>
         <material name="black"/>
       </visual>

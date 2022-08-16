@@ -1,0 +1,28 @@
+[1.811s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/build/package_python/install.log --single-version-externally-managed
+[2.360s] running egg_info
+[2.361s] writing build/package_python/package_python.egg-info/PKG-INFO
+[2.363s] writing dependency_links to build/package_python/package_python.egg-info/dependency_links.txt
+[2.364s] writing entry points to build/package_python/package_python.egg-info/entry_points.txt
+[2.364s] writing requirements to build/package_python/package_python.egg-info/requires.txt
+[2.365s] writing top-level names to build/package_python/package_python.egg-info/top_level.txt
+[2.449s] reading manifest file 'build/package_python/package_python.egg-info/SOURCES.txt'
+[2.457s] writing manifest file 'build/package_python/package_python.egg-info/SOURCES.txt'
+[2.457s] running build
+[2.458s] running build_py
+[2.461s] copying package_python/hardware_arduino_wheels.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/build/package_python/build/lib/package_python
+[2.461s] running install
+[2.461s] running install_lib
+[2.462s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/build/package_python/build/lib/package_python/hardware_arduino_wheels.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/python3.8/site-packages/package_python
+[2.464s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/python3.8/site-packages/package_python/hardware_arduino_wheels.py to hardware_arduino_wheels.cpython-38.pyc
+[2.468s] running install_data
+[2.470s] running install_egg_info
+[2.473s] removing '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/python3.8/site-packages/package_python-0.0.0-py3.8.egg-info' (and everything under it)
+[2.474s] Copying build/package_python/package_python.egg-info to /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/python3.8/site-packages/package_python-0.0.0-py3.8.egg-info
+[2.476s] running install_scripts
+[2.519s] Installing hardware_arduino_wheels script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/package_python
+[2.520s] Installing nodo_py script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/package_python
+[2.521s] Installing py_pub_odometry script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/package_python
+[2.521s] Installing py_pub_spiral script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/package_python
+[2.522s] Installing py_pub_sub_wheels script to /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/package_python
+[2.525s] writing list of installed files to '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/build/package_python/install.log'
+[2.600s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python/build/package_python/install.log --single-version-externally-managed

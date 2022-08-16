@@ -1,0 +1,5 @@
+  File "/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/install/package_python/lib/python3.8/site-packages/package_python/hardware_arduino_wheels.py", line 68
+    if (res==True)
+                 ^
+SyntaxError: invalid syntax
+

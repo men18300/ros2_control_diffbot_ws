@@ -7,6 +7,7 @@
 /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/config/diffbot_diff_drive_controller.yaml
 /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/view_robot.launch.py
 /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/rrbot_system_position_only_gazebo.launch.py
+/home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/diffbot_system_sim.launch.py
 /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/rrbot.launch.py
 /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/rrbot_system_position_only.launch.py
 /home/diego/Workspaces/ros2_control_diffbot_ws/src/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/launch/test_joint_trajectory_position_controller.launch.py

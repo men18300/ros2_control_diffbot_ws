@@ -1,0 +1,32 @@
+[2.564s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/install.log --single-version-externally-managed
+[3.389s] running egg_info
+[3.391s] writing ../../../../build/package_python/package_python.egg-info/PKG-INFO
+[3.392s] writing dependency_links to ../../../../build/package_python/package_python.egg-info/dependency_links.txt
+[3.393s] writing entry points to ../../../../build/package_python/package_python.egg-info/entry_points.txt
+[3.395s] writing requirements to ../../../../build/package_python/package_python.egg-info/requires.txt
+[3.396s] writing top-level names to ../../../../build/package_python/package_python.egg-info/top_level.txt
+[3.520s] reading manifest file '../../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[3.522s] writing manifest file '../../../../build/package_python/package_python.egg-info/SOURCES.txt'
+[3.523s] running build
+[3.523s] running build_py
+[3.525s] copying package_python/py_pub_sub_wheels.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib/package_python
+[3.525s] running install
+[3.527s] running install_lib
+[3.530s] copying /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build/lib/package_python/py_pub_sub_wheels.py -> /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python
+[3.532s] byte-compiling /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python/py_pub_sub_wheels.py to py_pub_sub_wheels.cpython-38.pyc
+[3.535s]   File "/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python/py_pub_sub_wheels.py", line 30
+[3.536s]     global lineal=msg.linear.x
+[3.536s] running install_data
+[3.537s]                  ^
+[3.537s] SyntaxError: invalid syntax
+[3.537s] 
+[3.542s] running install_egg_info
+[3.543s] removing '/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python-0.0.0-py3.8.egg-info' (and everything under it)
+[3.547s] Copying ../../../../build/package_python/package_python.egg-info to /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages/package_python-0.0.0-py3.8.egg-info
+[3.550s] running install_scripts
+[3.625s] Installing nodo_py script to /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/package_python
+[3.626s] Installing py_pub_odometry script to /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/package_python
+[3.627s] Installing py_pub_spiral script to /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/package_python
+[3.628s] Installing py_pub_sub_wheels script to /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/package_python
+[3.630s] writing list of installed files to '/home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/install.log'
+[3.732s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/python_dev/src/package_python' returned '0': PYTHONPATH=/home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/package_python build --build-base /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/build install --prefix /home/diego/Workspaces/ros2_control_diffbot_ws/install/package_python --record /home/diego/Workspaces/ros2_control_diffbot_ws/build/package_python/install.log --single-version-externally-managed

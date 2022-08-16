@@ -1,0 +1,42 @@
+[0.042s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description -- -j2 -l2
+[0.221s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description -- -j2 -l2
+[0.325s] Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description
+[0.356s] -- Install configuration: ""
+[0.361s] -- Execute custom install script
+[0.361s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[0.363s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[0.366s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[0.367s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/meshes/Chasis.stl
+[0.367s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/meshes/arm_base.stl
+[0.367s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/meshes/bicep.stl
+[0.368s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/meshes/elbow.stl
+[0.376s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/meshes/robot_base.stl
+[0.376s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/meshes/wheel.stl
+[0.376s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/meshes/wrist.stl
+[0.376s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/model.config
+[0.377s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/model.sdf
+[0.377s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/gazebo_sim/orignial.txt
+[0.377s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/meshes/Chasis.stl
+[0.377s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/meshes/Orugas.stl
+[0.377s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/meshes/robot_base.stl
+[0.377s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/meshes/wheel.stl
+[0.378s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[0.378s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[0.378s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[0.378s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/urdf/diffboturdforiginal.txt
+[0.379s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[0.380s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[0.382s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[0.383s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[0.386s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/path.sh
+[0.388s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[0.390s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.bash
+[0.392s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.sh
+[0.401s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[0.402s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[0.402s] -- Symlinking: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/package.dsv
+[0.454s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[0.454s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[0.454s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[0.454s] -- Up-to-date symlink: /home/diego/Workspaces/ros2_control_diffbot_ws/install/diffbot_description/share/diffbot_description/package.xml
+[0.466s] Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description

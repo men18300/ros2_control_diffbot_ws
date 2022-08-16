@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "config" "gazebo" "meshes" "ros2_control" "urdf" "DESTINATION" "share/diffbot_description")
-ament_cmake_symlink_install_directory("/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description" DIRECTORY "config" "gazebo" "meshes" "ros2_control" "urdf" "DESTINATION" "share/diffbot_description")
+# install(DIRECTORY "config" "gazebo" "gazebo_sim" "meshes" "ros2_control" "urdf" "DESTINATION" "share/diffbot_description")
+ament_cmake_symlink_install_directory("/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description" DIRECTORY "config" "gazebo" "gazebo_sim" "meshes" "ros2_control" "urdf" "DESTINATION" "share/diffbot_description")
 
 # install(FILES "/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/diffbot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/diego/Workspaces/ros2_control_diffbot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description" FILES "/home/diego/Workspaces/ros2_control_diffbot_ws/build/diffbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/diffbot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

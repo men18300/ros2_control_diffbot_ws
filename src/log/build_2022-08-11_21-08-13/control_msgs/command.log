@@ -1,0 +1,4 @@
+Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs -- -j2 -l2
+Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs -- -j2 -l2
+Invoking command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs
+Invoked command in '/home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/diego/Workspaces/ros2_control_diffbot_ws/src/build/control_msgs

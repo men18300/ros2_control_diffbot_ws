@@ -24,6 +24,7 @@ setup(
             'py_pub_spiral = package_python.py_pub_spiral:main',
             'py_pub_odometry = package_python.py_pub_odometry:main',
             'py_pub_sub_wheels = package_python.py_pub_sub_wheels:main',
+            'hardware_arduino_wheels = package_python.hardware_arduino_wheels:main',
         ],
     },
 )

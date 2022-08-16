@@ -15,9 +15,9 @@ from geometry_msgs.msg import Point, Pose, Quaternion, Twist, Vector3
 #y = 6.4
 #th = 0.0
 
-#vx = 0.45
-#vy = -0.1
-#vth = 0.1
+vx = 0.45
+vy = -0.1
+vth = 0.1
 
 ## --- PRUEBA 1#
 ser = serial.Serial(
