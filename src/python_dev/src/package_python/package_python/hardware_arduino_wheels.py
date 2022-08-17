@@ -19,6 +19,10 @@ xvalor=0.0
 yvalor=0.0
 zvalor=0.0
 
+global lineal_prev
+global angular_prev
+lineal_prev=0.0
+angular_prev=0.0
 
 vx = 0.45
 vy = -0.1
@@ -38,6 +42,13 @@ ser = serial.Serial(
 ser.close()  
 ser.open()   
 
+if ser.isOpen() == True:
+	print("Serial communication is open...")
+else:
+	print("Error opening serial communication")
+	#print(dwm_ser.isOpen())
+
+# ----------- FUNCIONES ----------- #
 # Reads one byte of information
 #data = ser.read(1) 
 
@@ -61,37 +72,53 @@ class MinimalPublisher(Node):
         self.subscriber_ = self.create_subscription(Twist, '/cmd_vel', self.subscribe_message, 1)
         self.subscriber_  # prevent unused variable warning
 
-    def publish_message(self):   
-        incoming = ser.readline().decode("utf-8")
-        incomingDic=json.loads(incoming)
-        #print(incoming)
-        odom=Odometry()
-        odom.header.frame_id = "odom"
-        # set the position 
-        odom.pose.pose.position.x = incomingDic["x"]
-        odom.pose.pose.position.y = incomingDic["y"]
-        odom.pose.pose.position.z = incomingDic["z"]
-        odom.pose.pose.orientation.x = 0.0
-        odom.pose.pose.orientation.y = 0.0
-        odom.pose.pose.orientation.z = 0.0
-        odom.pose.pose.orientation.w = 0.0
-        # set the velocity
-        odom.child_frame_id = "base_link"
-        odom.twist.twist.linear.x = vx
-        odom.twist.twist.linear.y = vy
-        odom.twist.twist.angular.z = vth
-        self.publisher_.publish(odom)
+    def publish_message(self):
+    
+    	if ser.inWaiting()>0:
+    	   
+           incoming = ser.readline().decode("utf-8")
+           incomingDic=json.loads(incoming)
+           ##print(ser.inWaiting())		
+           ##print(incoming)
+           odom=Odometry()
+           odom.header.frame_id = "odom"
+           # set the position 
+           odom.pose.pose.position.x = incomingDic["x"]
+           odom.pose.pose.position.y = incomingDic["y"]
+           odom.pose.pose.position.z = incomingDic["z"]
+           odom.pose.pose.orientation.x = 0.0
+           odom.pose.pose.orientation.y = 0.0
+           odom.pose.pose.orientation.z = 0.0
+           odom.pose.pose.orientation.w = 0.0
+           # set the velocity
+           odom.child_frame_id = "base_link"
+           odom.twist.twist.linear.x = vx
+           odom.twist.twist.linear.y = vy
+           odom.twist.twist.angular.z = vth
+           self.publisher_.publish(odom)
+        
+           #NUEVO
+           ser.flushInput()
 
     
     def subscribe_message(self, msg):
-        self.get_logger().info('Recieved - Linear Velocity : %f, Angular Velocity : %f' % (msg.linear.x, msg.angular.z))
+        global lineal_prev
+        global angular_prev
+    
+        #self.get_logger().info('Recieved - Linear Velocity : %f, Angular Velocity : %f' % (msg.linear.x, msg.angular.z))
         lineal=msg.linear.x
         angular=msg.angular.z
-        data = {}
-        data["LW"] =lineal
-        data["RW"] =angular
-        data=json.dumps(data)
-        ser.write(data.encode('ascii'))
+        
+        if lineal != lineal_prev or angular != angular_prev:
+           #print(lineal)
+           #print(lineal_prev)
+           data = {}
+           data["LW"] =lineal
+           data["RW"] =angular
+           data=json.dumps(data)
+           ser.write(data.encode('ascii'))
+           lineal_prev=lineal
+           angular_prev=angular
         #ser.flush()
         #time.sleep(0.05)
         
